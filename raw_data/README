@@ -1,0 +1,35 @@
+The raw data here is linked to the original files from UMGC, and the links were renamed with the rename.py script in this directory.
+
+Sample Code	isolate ID
+1	15ND19-2
+2	15ND19-5
+3	15ND20-3
+4	15ND20-4
+5	15MN13-4
+6	15MN14-4
+7	15MN15-3
+8	15MN16-3
+9	15MN17-5
+10	15MN18-1
+11	15MN18-3
+12	15MN10-4
+13	15MN10-5
+14	15MN27-3
+15	15MN23-1
+16	15MN24-1
+17	15MN25-3
+18	15SD30-1
+19	15SD30-3
+20	15SD11-1
+21	15SD11-2
+22	15NE8-4
+23	15NE8-5
+24	15NE9-1
+25	15NE9-3
+26	15OH12-3
+27	15MS7-1
+28	15TX3-1
+29	15FL1-2
+30	15Fl1-4
+
+The 12SD80 and 12NC29 data are linked from their respective directories as well.
