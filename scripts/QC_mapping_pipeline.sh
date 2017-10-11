@@ -9,7 +9,7 @@
 #./raw_data
 #./reference_genomes
 #./scripts     Make sure to add this directory to your $PATH
-#./analysis/snp_calling     Place the MSI job script and submit it from inside this directory
+#./analysis     Place the MSI job script and submit it from inside this directory
  
 #Check that the correct parameters were given, and if so assign the variables of LIBRARY and GENOME
 while [[ $# -gt 1 ]]
