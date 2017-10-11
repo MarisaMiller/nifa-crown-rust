@@ -3,7 +3,7 @@
 #PBS -l nodes=1:ppn=24,walltime=24:00:00
 #PBS -m abe
 #PBS -M millerme@umn.edu
-#PBS -N SNP_pipeline
+#PBS -N qc_mapping_pipeline
 
 cd $PBS_O_WORKDIR
 
