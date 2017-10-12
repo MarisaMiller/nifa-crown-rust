@@ -1,4 +1,4 @@
-The raw data here is linked to the original files from UMGC, and the links were renamed with the rename.py script in this directory.
+The raw data here was copied from to the original location from UMGC, and the files were renamed with the rename.py script in the scripts directory.
 
 Sample Code	isolate ID
 1	15ND19-2
@@ -32,4 +32,4 @@ Sample Code	isolate ID
 29	15FL1-2
 30	15Fl1-4
 
-The 12SD80 and 12NC29 data are linked from their respective directories as well.
+The 12SD80 and 12NC29 data were copied from their respective directories as well.
