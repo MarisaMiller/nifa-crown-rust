@@ -1,19 +1,29 @@
 #!/bin/bash -l
 
-#PBS -l nodes=1:ppn=24,walltime=24:00:00
+#PBS -l nodes=1:ppn=18,walltime=12:00:00
 #PBS -m abe
 #PBS -M millerme@umn.edu
 #PBS -N qc_mapping_pipeline
 
+#Run this script from inside of the raw_data directory
 cd $PBS_O_WORKDIR
 
 #Load required modules
 module load trimmomatic fastx_toolkit bwa/0.7.15 samtools/1.5
 
-RAW_DATA="/home/kianians/millerme/nifa-crown-rust/raw_data"
+ANALYSIS="/home/kianians/millerme/nifa-crown-rust/analysis"
+
+#Make output dir for trimmed reads
+mkdir $ANALYSIS/trimmed_reads 
+
+#Make output dirs for results of fastx toolkit
+mkdir -p $ANALYSIS/trimmed_reads/{statistics,plots/quality_plots,plots/nt_distribution}
+
+#Output directory for mapped reads
+mkdir $ANALYSIS/mapped_reads
 
 #Make array of filenames
-filelist=($RAW_DATA/*.fastq)
+filelist=(*.fastq)
 
 #Generate an array with name after _ gone
 filelist2=()
@@ -23,10 +33,11 @@ filelist2+=("${F%_*}")
 done
 
 #Remove duplicate values in list to just get unique basenames
-uniq=($(printf "%s\n" "${filelist2[@]}" | uniq)); echo "${uniq[@]}"
+uniq=($(printf "%s\\n" "${filelist2[@]}" | uniq)); echo "${uniq[@]}"
 
-#Then, use the unique array above in shell script w/ SNP pipeline to submit to MSI queues
+#Then use the unique array above in shell script w/ SNP pipeline to submit to MSI queues
+
 for F in "${uniq[@]}"
 do
-bash ../scripts/QC_mapping_pipeline.sh -n ../raw_reads/$F -g ../reference_genomes/Puccinia_coronata_avenae_12SD80.primary.fa
+bash ../scripts/QC_mapping_pipeline.sh -n $F -g ../reference_genomes/Puccinia_coronata_avenae_12SD80.primary.fa -t 18
 done
