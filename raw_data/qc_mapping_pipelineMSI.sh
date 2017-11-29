@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-#PBS -l nodes=1:ppn=18,walltime=12:00:00
+#PBS -l nodes=1:ppn=16,walltime=56:00:00
 #PBS -m abe
 #PBS -M millerme@umn.edu
 #PBS -N qc_mapping_pipeline
@@ -9,7 +9,7 @@
 cd $PBS_O_WORKDIR
 
 #Load required modules
-module load trimmomatic fastx_toolkit bwa/0.7.15 samtools/1.5
+module load trimmomatic fastx_toolkit bwa/0.7.15 samtools/1.5 gnuplot
 
 ANALYSIS="/home/kianians/millerme/nifa-crown-rust/analysis"
 
@@ -23,7 +23,7 @@ mkdir -p $ANALYSIS/trimmed_reads/{statistics,plots/quality_plots,plots/nt_distri
 mkdir $ANALYSIS/mapped_reads
 
 #Make array of filenames
-filelist=(*.fastq)
+filelist=(*.fastq.gz)
 
 #Generate an array with name after _ gone
 filelist2=()
@@ -39,5 +39,5 @@ uniq=($(printf "%s\\n" "${filelist2[@]}" | uniq)); echo "${uniq[@]}"
 
 for F in "${uniq[@]}"
 do
-bash ../scripts/QC_mapping_pipeline.sh -n $F -g ../reference_genomes/Puccinia_coronata_avenae_12SD80.primary.fa -t 18
+bash ../scripts/QC_mapping_pipeline.sh -n $F -g ../reference_genomes/Puccinia_coronata_avenae_12SD80.primary.fa -t 16
 done
