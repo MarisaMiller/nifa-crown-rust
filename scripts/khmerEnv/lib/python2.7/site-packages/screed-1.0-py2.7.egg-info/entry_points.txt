@@ -1,0 +1,3 @@
+[console_scripts]
+screed = screed.__main__:main
+

@@ -1,0 +1,84 @@
+Metadata-Version: 1.1
+Name: khmer
+Version: 2.1.1
+Summary: khmer k-mer counting library
+Home-page: https://khmer.readthedocs.io/
+Author: Daniel Standage, Adam Caldwell, Adina Howe, Aditi Gupta, Alex Hyer, Alexander Johan Nederbragt, Ali Aliyari, Amanda Charbonneau, Andreas Härpfer, Bede Constantinides, Benjamin Taylor, Brian Wyss, Cait Sydney, Camille Scott, Charles Pepe-Ranney, Connor T. Skennerton, David Lin, Elmar Bucher, Eric McDonald, Erich Schwarz, Greg Edvenson, Heather L. Wiencko, Humberto Ortiz-Zuazaga, Hussien F. Alameldin, Iván González, Jacob Fenton, James A. Stapleton, James Spencer, Jared Simpson, Jason Pell, Jeramia Ory, Jessica Mizzi, Jiarong Guo, Joe Stein, Jonathan Gluck, Jordan Fish, Joshua R. Herr, Joshua R. Nahum, Josiah Seaman, Justin Lippi, Kaben Nanlohy, Kevin D. Murray, Leonor Garcia-Gutierrez, Lisa Cohen, Luiz Irber, Michael R. Crusoe, Michael Wright, Nicole Kingsley, Pamela McA'Nulty, Phillip Garland, Qingpeng Zhang, Ramakrishnan Srinivasan, Reed Cartwright, Rhys Kidd, Russell Neches, Ryan Shean, Sarah Guermond, Sascha Steinbiss, Scott Fay, Scott Sievert, Shannon EK Joslin, Sherine Awad, Susan R Steinman, Tamer Mansour, Thomas Fenzl, Tim Head, Will Trimble, Zachary N Russ, en zyme, C. Titus Brown
+Author-email: khmer-project@idyll.org
+License: UNKNOWN
+Description: |Research software impact|
+        |Supported Python versions|
+        |khmer build status|
+        |Test coverage|
+        |BSD-3 licensed|
+        
+        khmer
+        =====
+        
+        Welcome to khmer: k-mer counting, filtering, and graph traversal FTW!
+        
+        The official source code repository is at https://github.com/dib-lab/khmer and project documentation is available online at http://khmer.readthedocs.io.
+        See http://khmer.readthedocs.io/en/stable/introduction.html for an overview of the khmer project.
+        
+        Getting help
+        ------------
+        
+        See http://khmer.readthedocs.io/en/stable/user/getting-help.html for more details, but in brief:
+        
+        -  first point of contact when looking for help:
+           https://github.com/dib-lab/khmer/issues
+        -  mailing list for **discussion**:
+           http://lists.idyll.org/listinfo/khmer
+        -  mailing list for **announcements**:
+           http://lists.idyll.org/listinfo/khmer-announce
+        -  email contact for project maintainers:
+           khmer-project@idyll.org
+        
+        Important note: cite us!
+        ------------------------
+        
+        khmer is *research software*, so you should cite us when you use it in scientific publications!
+        Please see the `CITATION <http://khmer.readthedocs.io/en/stable/citations.html>`__ file for citation information.
+        
+        The khmer library is a project of the `Lab for Data Intensive Biology <http://ivory.idyll.org/lab/>`__ at UC Davis, and includes contributions from its members, collaborators, and friends.
+        
+        Quick install
+        -------------
+        
+        ::
+        
+            pip install khmer
+            pytest --pyargs khmer -m 'not known_failing and not jenkins and not huge and not linux'
+        
+        See https://khmer.readthedocs.io/en/stable/user/install.html for more detailed installation instructions.
+        
+        Contributing
+        ------------
+        
+        We welcome contributions to khmer from the community!
+        If you're interested in modifying khmer or contributing to its ongoing development see https://khmer.readthedocs.io/en/stable/dev/getting-started.html.
+        
+        .. |Research software impact| image:: http://depsy.org/api/package/pypi/khmer/badge.svg
+           :target: http://depsy.org/package/python/khmer
+        .. |Supported Python versions| image:: https://img.shields.io/pypi/pyversions/khmer.svg
+        .. |khmer build status| image:: https://img.shields.io/travis/dib-lab/khmer.svg
+           :target: https://travis-ci.org/dib-lab/khmer
+        .. |Test coverage| image:: https://img.shields.io/codecov/c/github/dib-lab/khmer.svg
+           :target: https://codecov.io/github/dib-lab/khmer
+        .. |BSD-3 licensed| image:: https://img.shields.io/badge/license-BSD%203--Clause-blue.svg
+           :target: https://github.com/dib-lab/khmer/blob/master/LICENSE
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Development Status :: 5 - Production/Stable

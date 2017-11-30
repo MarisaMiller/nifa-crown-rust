@@ -1,0 +1,10 @@
+#!/panfs/roc/groups/7/kianians/millerme/nifa-crown-rust/scripts/khmerEnv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'screed==1.0','console_scripts','screed'
+__requires__ = 'screed==1.0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('screed==1.0', 'console_scripts', 'screed')()
+    )
