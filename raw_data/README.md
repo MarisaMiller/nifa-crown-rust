@@ -1,4 +1,8 @@
-The raw data here was copied from to the original location from UMGC, and the files were renamed with the rename.py script in the scripts directory.
+In this directory would be the raw sequencing data (not uploaded here due to size limitations).
+
+Also included are a list of samples names and the job submission script for QC and mapping of this data.
+
+The raw data here was copied from the original location from UMGC, and the files were renamed with the rename.py script in the scripts directory.
 
 Sample Code	isolate ID
 1	15ND19-2
@@ -63,4 +67,4 @@ Sample Code	isolate ID
 60	90TX70-1
 61	203-2
 
-The 12SD80 and 12NC29 data were copied from their respective directories as well.
+The 12SD80 and 12NC29 data were copied from their respective directories as well. The 203 isolate was not included in this project.
