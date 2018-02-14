@@ -1,0 +1,20 @@
+total variant sites:	2261737
+of which 2226539 (0.984438) are biallelic and 35198 (0.0155624) are multiallelic
+total variant alleles:	2299588
+unique variant alleles:	2299948
+
+snps:	2156015
+mnps:	2460
+indels:	141473
+complex:	438
+
+mismatches:	2158475
+
+ts/tv ratio:	1.92073
+deamination ratio:	1.45174
+biallelic snps:	2113042 @ 1.9722
+
+insertion alleles / deletion alleles:	0.957779
+inserted bases / deleted bases:	0.714165
+
+total bases in mnps:	2460

@@ -1,0 +1,4 @@
+*.vcf
+*Intersect.txt
+*gatk_freebayes_samtools_isolates.intersect.gc.snp*
+*gatk_freebayes_samtools_isolates.intersect.gc.indel*

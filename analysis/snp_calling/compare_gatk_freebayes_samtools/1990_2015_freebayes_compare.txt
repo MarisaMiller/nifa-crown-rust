@@ -1,0 +1,4 @@
+Variant_Caller	Year	Total_Variant_Sites	SNPs	Indels
+FreeBayes	2015	1488011	1410315	99261
+FreeBayes	1990	1750445	1667400	112179
+Intersection	1990_2015	1330400	1261268	84343

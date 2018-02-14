@@ -1,0 +1,660 @@
+90MN1B-1
+total variant sites:	236333
+of which 236333 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	236333
+unique variant alleles:	236333
+
+snps:	208106
+mnps:	0
+indels:	28227
+complex:	0
+
+mismatches:	208106
+
+ts/tv ratio:	1.94534
+deamination ratio:	0.853275
+biallelic snps:	208106 @ 1.94534
+
+insertion alleles / deletion alleles:	1.43967
+inserted bases / deleted bases:	0.859904
+
+total bases in mnps:	0
+
+90MN2B-1
+total variant sites:	237335
+of which 237335 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	237335
+unique variant alleles:	237335
+
+snps:	208906
+mnps:	0
+indels:	28429
+complex:	0
+
+mismatches:	208906
+
+ts/tv ratio:	1.94786
+deamination ratio:	0.856661
+biallelic snps:	208906 @ 1.94786
+
+insertion alleles / deletion alleles:	1.43984
+inserted bases / deleted bases:	0.861089
+
+total bases in mnps:	0
+
+90MN3B-1
+total variant sites:	252047
+of which 252047 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	252047
+unique variant alleles:	252047
+
+snps:	222867
+mnps:	0
+indels:	29180
+complex:	0
+
+mismatches:	222867
+
+ts/tv ratio:	1.94837
+deamination ratio:	0.833765
+biallelic snps:	222867 @ 1.94837
+
+insertion alleles / deletion alleles:	1.46703
+inserted bases / deleted bases:	0.915759
+
+total bases in mnps:	0
+
+90MN5B-1
+total variant sites:	483009
+of which 483009 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	483009
+unique variant alleles:	483009
+
+snps:	442011
+mnps:	0
+indels:	40998
+complex:	0
+
+mismatches:	442011
+
+ts/tv ratio:	1.89961
+deamination ratio:	0.908086
+biallelic snps:	442011 @ 1.89961
+
+insertion alleles / deletion alleles:	1.32983
+inserted bases / deleted bases:	0.924627
+
+total bases in mnps:	0
+
+90MN7B-1
+total variant sites:	231677
+of which 231677 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	231677
+unique variant alleles:	231677
+
+snps:	203949
+mnps:	0
+indels:	27728
+complex:	0
+
+mismatches:	203949
+
+ts/tv ratio:	1.91007
+deamination ratio:	0.848632
+biallelic snps:	203949 @ 1.91007
+
+insertion alleles / deletion alleles:	1.43677
+inserted bases / deleted bases:	0.849231
+
+total bases in mnps:	0
+
+90MN8B-2
+total variant sites:	235392
+of which 235392 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	235392
+unique variant alleles:	235392
+
+snps:	207170
+mnps:	0
+indels:	28222
+complex:	0
+
+mismatches:	207170
+
+ts/tv ratio:	1.96801
+deamination ratio:	0.855686
+biallelic snps:	207170 @ 1.96801
+
+insertion alleles / deletion alleles:	1.44367
+inserted bases / deleted bases:	0.86943
+
+total bases in mnps:	0
+
+90MN9B-4
+total variant sites:	254249
+of which 254249 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	254249
+unique variant alleles:	254249
+
+snps:	224929
+mnps:	0
+indels:	29320
+complex:	0
+
+mismatches:	224929
+
+ts/tv ratio:	1.94989
+deamination ratio:	0.838198
+biallelic snps:	224929 @ 1.94989
+
+insertion alleles / deletion alleles:	1.46076
+inserted bases / deleted bases:	0.910964
+
+total bases in mnps:	0
+
+90MN13B-3
+total variant sites:	230025
+of which 230025 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	230025
+unique variant alleles:	230025
+
+snps:	202689
+mnps:	0
+indels:	27336
+complex:	0
+
+mismatches:	202689
+
+ts/tv ratio:	1.96985
+deamination ratio:	0.850822
+biallelic snps:	202689 @ 1.96985
+
+insertion alleles / deletion alleles:	1.4381
+inserted bases / deleted bases:	0.863246
+
+total bases in mnps:	0
+
+90MN14B-1
+total variant sites:	230572
+of which 230572 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	230572
+unique variant alleles:	230572
+
+snps:	203016
+mnps:	0
+indels:	27556
+complex:	0
+
+mismatches:	203016
+
+ts/tv ratio:	1.9161
+deamination ratio:	0.849653
+biallelic snps:	203016 @ 1.9161
+
+insertion alleles / deletion alleles:	1.44638
+inserted bases / deleted bases:	0.838665
+
+total bases in mnps:	0
+
+90MN17B-1
+total variant sites:	220509
+of which 220509 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	220509
+unique variant alleles:	220509
+
+snps:	193468
+mnps:	0
+indels:	27041
+complex:	0
+
+mismatches:	193468
+
+ts/tv ratio:	1.93721
+deamination ratio:	0.857729
+biallelic snps:	193468 @ 1.93721
+
+insertion alleles / deletion alleles:	1.46815
+inserted bases / deleted bases:	0.860903
+
+total bases in mnps:	0
+
+90MN137-1
+total variant sites:	217336
+of which 217336 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	217336
+unique variant alleles:	217336
+
+snps:	190676
+mnps:	0
+indels:	26660
+complex:	0
+
+mismatches:	190676
+
+ts/tv ratio:	1.94117
+deamination ratio:	0.841442
+biallelic snps:	190676 @ 1.94117
+
+insertion alleles / deletion alleles:	1.46943
+inserted bases / deleted bases:	0.867049
+
+total bases in mnps:	0
+
+90MN148-1
+total variant sites:	236292
+of which 236292 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	236292
+unique variant alleles:	236292
+
+snps:	208991
+mnps:	0
+indels:	27301
+complex:	0
+
+mismatches:	208991
+
+ts/tv ratio:	1.93551
+deamination ratio:	0.84329
+biallelic snps:	208991 @ 1.93551
+
+insertion alleles / deletion alleles:	1.46867
+inserted bases / deleted bases:	0.897616
+
+total bases in mnps:	0
+
+90MN149-2
+total variant sites:	170740
+of which 170740 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	170740
+unique variant alleles:	170740
+
+snps:	146715
+mnps:	0
+indels:	24025
+complex:	0
+
+mismatches:	146715
+
+ts/tv ratio:	1.91332
+deamination ratio:	0.793419
+biallelic snps:	146715 @ 1.91332
+
+insertion alleles / deletion alleles:	1.57282
+inserted bases / deleted bases:	0.882033
+
+total bases in mnps:	0
+
+90MN152-1
+total variant sites:	158343
+of which 158343 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	158343
+unique variant alleles:	158343
+
+snps:	134562
+mnps:	0
+indels:	23781
+complex:	0
+
+mismatches:	134562
+
+ts/tv ratio:	1.93036
+deamination ratio:	0.780675
+biallelic snps:	134562 @ 1.93036
+
+insertion alleles / deletion alleles:	1.60699
+inserted bases / deleted bases:	0.875998
+
+total bases in mnps:	0
+
+90MN153-1
+total variant sites:	245345
+of which 245345 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	245345
+unique variant alleles:	245345
+
+snps:	217147
+mnps:	0
+indels:	28198
+complex:	0
+
+mismatches:	217147
+
+ts/tv ratio:	1.94872
+deamination ratio:	0.827776
+biallelic snps:	217147 @ 1.94872
+
+insertion alleles / deletion alleles:	1.4567
+inserted bases / deleted bases:	0.90139
+
+total bases in mnps:	0
+
+90WI131-1
+total variant sites:	222222
+of which 222222 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	222222
+unique variant alleles:	222222
+
+snps:	195083
+mnps:	0
+indels:	27139
+complex:	0
+
+mismatches:	195083
+
+ts/tv ratio:	1.94972
+deamination ratio:	0.844709
+biallelic snps:	195083 @ 1.94972
+
+insertion alleles / deletion alleles:	1.49371
+inserted bases / deleted bases:	0.885508
+
+total bases in mnps:	0
+
+90WI132-1
+total variant sites:	236156
+of which 236156 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	236156
+unique variant alleles:	236156
+
+snps:	208802
+mnps:	0
+indels:	27354
+complex:	0
+
+mismatches:	208802
+
+ts/tv ratio:	1.9536
+deamination ratio:	0.846142
+biallelic snps:	208802 @ 1.9536
+
+insertion alleles / deletion alleles:	1.46299
+inserted bases / deleted bases:	0.876232
+
+total bases in mnps:	0
+
+90SD164-1
+total variant sites:	248960
+of which 248960 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	248960
+unique variant alleles:	248960
+
+snps:	220345
+mnps:	0
+indels:	28615
+complex:	0
+
+mismatches:	220345
+
+ts/tv ratio:	1.97301
+deamination ratio:	0.835446
+biallelic snps:	220345 @ 1.97301
+
+insertion alleles / deletion alleles:	1.50109
+inserted bases / deleted bases:	0.953751
+
+total bases in mnps:	0
+
+90SD171-1
+total variant sites:	218796
+of which 218796 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	218796
+unique variant alleles:	218796
+
+snps:	192430
+mnps:	0
+indels:	26366
+complex:	0
+
+mismatches:	192430
+
+ts/tv ratio:	1.95946
+deamination ratio:	0.866046
+biallelic snps:	192430 @ 1.95946
+
+insertion alleles / deletion alleles:	1.50437
+inserted bases / deleted bases:	0.882039
+
+total bases in mnps:	0
+
+90SD172-1
+total variant sites:	251971
+of which 251971 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	251971
+unique variant alleles:	251971
+
+snps:	222926
+mnps:	0
+indels:	29045
+complex:	0
+
+mismatches:	222926
+
+ts/tv ratio:	1.97592
+deamination ratio:	0.837475
+biallelic snps:	222926 @ 1.97592
+
+insertion alleles / deletion alleles:	1.47824
+inserted bases / deleted bases:	0.936748
+
+total bases in mnps:	0
+
+90PA162-1
+total variant sites:	223443
+of which 223443 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	223443
+unique variant alleles:	223443
+
+snps:	196439
+mnps:	0
+indels:	27004
+complex:	0
+
+mismatches:	196439
+
+ts/tv ratio:	1.92695
+deamination ratio:	0.857104
+biallelic snps:	196439 @ 1.92695
+
+insertion alleles / deletion alleles:	1.50269
+inserted bases / deleted bases:	0.889389
+
+total bases in mnps:	0
+
+90KS101-1
+total variant sites:	249134
+of which 249134 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	249134
+unique variant alleles:	249134
+
+snps:	220465
+mnps:	0
+indels:	28669
+complex:	0
+
+mismatches:	220465
+
+ts/tv ratio:	1.94594
+deamination ratio:	0.832513
+biallelic snps:	220465 @ 1.94594
+
+insertion alleles / deletion alleles:	1.44825
+inserted bases / deleted bases:	0.899372
+
+total bases in mnps:	0
+
+90AR100-1
+total variant sites:	259827
+of which 259827 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	259827
+unique variant alleles:	259827
+
+snps:	231157
+mnps:	0
+indels:	28670
+complex:	0
+
+mismatches:	231157
+
+ts/tv ratio:	1.93831
+deamination ratio:	0.800957
+biallelic snps:	231157 @ 1.93831
+
+insertion alleles / deletion alleles:	1.46751
+inserted bases / deleted bases:	0.933557
+
+total bases in mnps:	0
+
+90GA16-1
+total variant sites:	249649
+of which 249649 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	249649
+unique variant alleles:	249649
+
+snps:	220936
+mnps:	0
+indels:	28713
+complex:	0
+
+mismatches:	220936
+
+ts/tv ratio:	1.95077
+deamination ratio:	0.833384
+biallelic snps:	220936 @ 1.95077
+
+insertion alleles / deletion alleles:	1.4583
+inserted bases / deleted bases:	0.905293
+
+total bases in mnps:	0
+
+90LA38-1
+total variant sites:	254308
+of which 254308 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	254308
+unique variant alleles:	254308
+
+snps:	224722
+mnps:	0
+indels:	29586
+complex:	0
+
+mismatches:	224722
+
+ts/tv ratio:	1.9722
+deamination ratio:	0.838598
+biallelic snps:	224722 @ 1.9722
+
+insertion alleles / deletion alleles:	1.469
+inserted bases / deleted bases:	0.934921
+
+total bases in mnps:	0
+
+90TX45-1
+total variant sites:	272116
+of which 272116 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	272116
+unique variant alleles:	272116
+
+snps:	241757
+mnps:	0
+indels:	30359
+complex:	0
+
+mismatches:	241757
+
+ts/tv ratio:	1.94341
+deamination ratio:	0.900058
+biallelic snps:	241757 @ 1.94341
+
+insertion alleles / deletion alleles:	1.42794
+inserted bases / deleted bases:	0.865832
+
+total bases in mnps:	0
+
+90TX47-1
+total variant sites:	235703
+of which 235703 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	235703
+unique variant alleles:	235703
+
+snps:	207314
+mnps:	0
+indels:	28389
+complex:	0
+
+mismatches:	207314
+
+ts/tv ratio:	1.9671
+deamination ratio:	0.854356
+biallelic snps:	207314 @ 1.9671
+
+insertion alleles / deletion alleles:	1.45007
+inserted bases / deleted bases:	0.874306
+
+total bases in mnps:	0
+
+90TX52-1
+total variant sites:	249697
+of which 249697 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	249697
+unique variant alleles:	249697
+
+snps:	220495
+mnps:	0
+indels:	29202
+complex:	0
+
+mismatches:	220495
+
+ts/tv ratio:	1.95028
+deamination ratio:	0.830142
+biallelic snps:	220495 @ 1.95028
+
+insertion alleles / deletion alleles:	1.45086
+inserted bases / deleted bases:	0.896583
+
+total bases in mnps:	0
+
+90TX58-1
+total variant sites:	251974
+of which 251974 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	251974
+unique variant alleles:	251974
+
+snps:	222843
+mnps:	0
+indels:	29131
+complex:	0
+
+mismatches:	222843
+
+ts/tv ratio:	1.94571
+deamination ratio:	0.833472
+biallelic snps:	222843 @ 1.94571
+
+insertion alleles / deletion alleles:	1.46018
+inserted bases / deleted bases:	0.91406
+
+total bases in mnps:	0
+
+90TX70-1
+total variant sites:	246370
+of which 246370 (1) are biallelic and 0 (0) are multiallelic
+total variant alleles:	246370
+unique variant alleles:	246370
+
+snps:	217629
+mnps:	0
+indels:	28741
+complex:	0
+
+mismatches:	217629
+
+ts/tv ratio:	1.95768
+deamination ratio:	0.829018
+biallelic snps:	217629 @ 1.95768
+
+insertion alleles / deletion alleles:	1.46895
+inserted bases / deleted bases:	0.899371
+
+total bases in mnps:	0
+

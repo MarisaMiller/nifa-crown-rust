@@ -1,0 +1,5 @@
+vt/*
+vcflib/.gitmodules
+vcflib/.travis.yml
+vcflib/multichoose/
+vcflib/tabixpp/
