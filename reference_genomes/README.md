@@ -1,4 +1,4 @@
-#Information about reference genomes
+# Information about reference genomes
 This is the folder where reference genomes would go (not added to GitHub due to size).
 
 These are the same reference genomes and gff3 files that were deposited into MycoCosm and NCBI (https://www.ncbi.nlm.nih.gov/bioproject/398546).
