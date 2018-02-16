@@ -86,3 +86,10 @@ $VCFLIB/vcfintersect -r $GENOME/Puccinia_coronata_avenae_12SD80.primary.fa -i 20
 $VCFLIB/vcfintersect -r $GENOME/Puccinia_coronata_avenae_12SD80.primary.fa -i 1990_isolates.freebayes.filter_for_compare.primitive.vcf 1990_isolates.gatk.filter.primitive.vcf | $VCFLIB/vcffixup - > 1990_isolates_freebayes_gatk.intersect.final.vcf
 
 $VCFLIB/vcfintersect -r $GENOME/Puccinia_coronata_avenae_12SD80.primary.fa -i 1990_isolates.samtools.filter.primitive.vcf 1990_isolates_freebayes_gatk.intersect.final.vcf | $VCFLIB/vcffixup - > 1990_gatk_freebayes_samtools_isolates.intersect.final.vcf
+
+#Compress and index files for future analysis with tabix (note, I have tabix and bgzip installed and in my $PATH as these are not on MSI)
+bgzip 1990_gatk_freebayes_samtools_isolates.intersect.final.vcf
+tabix -p vcf 1990_gatk_freebayes_samtools_isolates.intersect.final.vcf.gz
+
+bgzip 2015_gatk_freebayes_samtools_isolates.intersect.final.vcf
+tabix -p vcf 2015_gatk_freebayes_samtools_isolates.intersect.final.vcf.gz
