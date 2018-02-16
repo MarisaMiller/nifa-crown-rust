@@ -64,8 +64,15 @@ cat 1990_isolates.vcf | $VCFLIB/vcffixup - | $VCFLIB/vcffilter -f "QUAL > 20 & A
 
 (for S in `cat 1990_sample_list.txt`; do echo $S; $VCFLIB/vcfkeepsamples 1990_isolates.filter_for_compare.vcf $S | $VCFLIB/vcffixup - | $VCFLIB/vcffilter -f "AC > 0 & AC = 2" | $VCFLIB/vcfstats -l; echo -en "\\n"; done;) > 1990_isolate_filter_for_compare_hom_stats.txt
 
-#Combine 1990 and 2015 sets together for later analysis
+#Combine 1990 and 2015 sets together for later analysis with DAPC
 $VCFLIB/vcfcombine 2015_isolates.filter.vcf 1990_isolates.filter.vcf > 1990_2015_isolates.filter.vcf
+
+#Compress and index files for future analysis with tabix (note, I have tabix and bgzip installed and in my $PATH as these are not on MSI)
+bgzip 1990_isolates.filter.vcf
+tabix -p vcf 1990_isolates.filter.vcf.gz
+
+bgzip 2015_isolates.filter.vcf
+tabix -p vcf 2015_isolates.filter.vcf.gz
 
 ###After thinking more about the issue of filtering out sites that are also het in the reference, I decided that by throwing away variant sites that are the same (het) as the reference, we are actually losing a lot of variation among the samples. Really, we don't care that a given variant is the same or different as 12SD80, but how the samples differ amongst each other with respect to a given position.
 ###These commands were kept as a log of what I tried with the 2015 isolates as a test.
