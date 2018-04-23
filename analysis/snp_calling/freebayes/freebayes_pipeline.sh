@@ -66,13 +66,39 @@ cat 1990_isolates.vcf | $VCFLIB/vcffixup - | $VCFLIB/vcffilter -f "QUAL > 20 & A
 
 #Combine 1990 and 2015 sets together for later analysis with DAPC
 $VCFLIB/vcfcombine 2015_isolates.filter.vcf 1990_isolates.filter.vcf > 1990_2015_isolates.filter.vcf
+#Then, remove reference isolates for PopGenome analysis (since this is not as easy to do with the GENOME.class PopGenome objects)
+$VCFLIB/vcfremovesamples 1990_2015_isolates.filter.vcf 12SD80 12NC29 | $VCFLIB/vcffixup - > 1990_2015_isolates.filter.ref_removed.vcf
+$VCFLIB/vcfstreamsort -a 1990_2015_isolates.filter.ref_removed.vcf > 1990_2015_isolates.filter.ref_removed.sort.vcf
+bgzip 1990_2015_isolates.filter.ref_removed.sort.vcf
+tabix -p vcf 1990_2015_isolates.filter.ref_removed.sort.vcf.gz
 
-#Compress and index files for future analysis with tabix (note, I have tabix and bgzip installed and in my $PATH as these are not on MSI)
+#Remove reference isolates from 2015 isolate individual file
+#Compress and index files for future analysis with tabix (note, I have tabix, bgzip, and bioawk installed and in my $PATH as these are not on MSI)
 bgzip 1990_isolates.filter.vcf
 tabix -p vcf 1990_isolates.filter.vcf.gz
 
-bgzip 2015_isolates.filter.vcf
-tabix -p vcf 2015_isolates.filter.vcf.gz
+$VCFLIB/vcfremovesamples 2015_isolates.filter.vcf 12SD80 12NC29 | $VCFLIB/vcffixup - > 2015_isolates.filter.ref_removed.vcf
+bgzip 2015_isolates.filter.ref_removed.vcf
+tabix -p vcf 2015_isolates.filter.ref_removed.vcf.gz
+
+#Then, split out vcf files for each contig as these will be needed for downstream analyses
+mkdir 1990
+for contig in $(bioawk -c vcf '{print $chrom}' 1990_isolates.filter.vcf.gz | sort | uniq)
+do
+tabix -h 1990_isolates.filter.vcf.gz $contig > ./1990/${contig}.vcf
+done
+
+mkdir 2015
+for contig in $(bioawk -c vcf '{print $chrom}' 2015_isolates.filter.ref_removed.vcf.gz | sort | uniq)
+do
+tabix -h 2015_isolates.filter.ref_removed.vcf.gz $contig > ./2015/${contig}.vcf
+done
+
+mkdir 1990_2015
+for contig in $(bioawk -c vcf '{print $chrom}' 1990_2015_isolates.filter.ref_removed.sort.vcf.gz | sort | uniq)
+do
+tabix -h 1990_2015_isolates.filter.ref_removed.sort.vcf.gz $contig > ./1990_2015/${contig}.vcf
+done
 
 ###After thinking more about the issue of filtering out sites that are also het in the reference, I decided that by throwing away variant sites that are the same (het) as the reference, we are actually losing a lot of variation among the samples. Really, we don't care that a given variant is the same or different as 12SD80, but how the samples differ amongst each other with respect to a given position.
 ###These commands were kept as a log of what I tried with the 2015 isolates as a test.
