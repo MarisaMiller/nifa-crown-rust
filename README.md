@@ -5,9 +5,9 @@ Some files were not uploaded here due to size limitations. Notes have been added
 
 Note, see README files and/or job scripts in all directories as well for detailed commands, parameters, and versions.
 
-In this project, I re-sequenced 60 isolates of Puccinia coronata f. sp. avenae, using paired-end sequencing (100bp PE). This sequencing was done by the UMGC sequencing core (100 ng of DNA used for TruSeq Nano DNA procedure and a 350 bp insert size). 2 batches of 30 libraries were multiplexed and sequenced in 3.5 lanes (HiSeq 2500, High Output Mode, 125 bp paired-end reads) at the University of Minnesota Genomics Center (UMGC) (MN, USA).
+In this project, I re-sequenced 60 isolates of *Puccinia coronata* f. sp. *avenae* (*Pca*), using paired-end sequencing (100bp PE). This sequencing was done by the UMGC sequencing core (100 ng of DNA used for TruSeq Nano DNA procedure and a 350 bp insert size). 2 batches of 30 libraries were multiplexed and sequenced in 3.5 lanes (HiSeq 2500, High Output Mode, 125 bp paired-end reads) at the University of Minnesota Genomics Center (UMGC) (MN, USA).
 
-Data was deposited by UMGC into the relevant directories for our group, and subsequently I copied all raw FASTQ sequences to the raw_data directory. 12SD80 and 12NC29 sequencing data generated in the Pca genome sequencing project were also placed in the raw_data directory.
+Data was deposited by UMGC into the relevant directories for our group, and subsequently I copied all raw FASTQ sequences to the raw_data directory. 12SD80 and 12NC29 sequencing data generated in the *Pca* genome sequencing project were also placed in the raw_data directory.
 
 Then, the rename.py script in the scripts directory was used to rename the files.
 
@@ -21,6 +21,6 @@ Then, the rename.py script in the scripts directory was used to rename the files
 6. Run kWIP using the kwip.sh script in analysis/kWIP. I have an installation of kWIP in my scripts directory, but you will need to install yourself. Plot results with the img_mod_from_original.R script.
 7. Contamination assessment with vcfR
 8. Annotate variants using Annovar with the annotate_variants.sh script in analysis/snp_calling/variant_annotation/
-9. Perform DAPC analysis with the dapc_script.R script in analysis/dapc_poppr/adegenet_dapc_analysis/
+9. Perform DAPC analysis and generate phylogenetic tree with the dapc_script.R script in analysis/dapc_poppr/adegenet_dapc_analysis/
 10. LD analysis with poppr
 11. Population genomic analyses with PopGenome
