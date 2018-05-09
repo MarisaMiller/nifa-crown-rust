@@ -1,2 +1,2 @@
-./*.Rdata/*.Rdata/*.Rdata
-./*.RData/*.RData/*.RData
+*/*.Rdata/*.Rdata/*.Rdata
+*/*.RData/*.RData/*.RData
