@@ -1,0 +1,10 @@
+#!/bin/bash -l
+
+#PBS -l nodes=1:ppn=4,walltime=24:00:00
+#PBS -m abe
+#PBS -M millerme@umn.edu
+#PBS -N aspera
+
+cd $PBS_O_WORKDIR
+
+/home/kianians/millerme/.aspera/connect/bin/ascp -i /home/kianians/millerme/nifa-crown-rust/ncbi_upload/aspera.openssh -QT -l100m -k1 -d /home/kianians/millerme/nifa-crown-rust/ncbi_upload/files/ subasp@upload.ncbi.nlm.nih.gov:uploads/figue031@umn.edu_gJxUFxkp
