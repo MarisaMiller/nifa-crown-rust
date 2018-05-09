@@ -1,0 +1,7 @@
+adegenet_dapc_analysis/*.Rdata
+adegenet_dapc_analysis/misc/*.Rdata
+adegenet_dapc_analysis/misc/*.RData
+adegenet_dapc_analysis/misc/combined/*.Rdata
+adegenet_dapc_analysis/misc/combined/*.RData
+adegenet_dapc_analysis/misc/merged/*.Rdata
+adegenet_dapc_analysis/misc/merged/*.RData
