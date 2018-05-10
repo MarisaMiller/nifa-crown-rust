@@ -42,9 +42,6 @@ avg_cov <- cov_df %>% group_by(sample_name) %>%
 
 write.table(avg_cov, file = "average_coverage.txt", sep = "\t", row.names = FALSE)
 
-cov_df %>% group_by(sample_name) %>%
-  do(write_csv(., paste0(unique(.$sample_name), "test.csv")))
-
 #now make plots
 #Set theme to be classic
 theme_set(theme_classic() + 
