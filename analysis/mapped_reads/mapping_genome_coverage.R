@@ -1,6 +1,6 @@
 #This script is for calculating genome coverage for a batch of files post read-mapping
 #Change to the appropriate working directory were all coverage files are stored
-#setwd("")
+setwd("")
 
 #Load appropriate libraries
 library(dplyr)
@@ -42,12 +42,19 @@ avg_cov <- cov_df %>% group_by(sample_name) %>%
 
 write.table(avg_cov, file = "average_coverage.txt", sep = "\t", row.names = FALSE)
 
+#Average coverage per sample/per contig
+avg_cov_contig <- cov_df %>% group_by(.dots = c("sample_name", "contig")) %>%
+  summarize(average_cov = mean(coverage)) %>%
+  arrange(desc(average_cov))
+
+write.table(avg_cov_contig, file = "average_coverage_per_contig.txt", sep = "\t", row.names = FALSE)
+
 #now make plots
 #Set theme to be classic
 theme_set(theme_classic() + 
             theme(
               legend.text=element_text(size=11),
-              axis.text=element_text(size=13),
+              axis.text=element_text(size=9),
               axis.title = element_text(size=15),
               axis.line = element_line(size=0.5),
               strip.text.y = element_blank()
@@ -55,15 +62,19 @@ theme_set(theme_classic() +
 )
 
 #Ridge plots
-plot_cov <- (ggplot(cov_df, aes(x=coverage, y=sample_name)) +
-                geom_density_ridges(scale=0.8, fill="lightblue") + 
+plot_cov <- ggplot(cov_df, aes(x=coverage, y=sample_name)) +
+                geom_density_ridges(scale=1.75, fill="lightblue") + 
                 scale_y_discrete(expand=c(0.001, 0)) + 
-                facet_wrap(~sample_year) +
+                #facet_wrap(~sample_year) +
                 xlim(0, 100) +
                 theme(strip.text.x = element_blank()) +
-                labs(x = "Average Depth Per Contig", y=""))
+                labs(x = "Average Depth Per Contig", y="")
 
 # Save the plots
 png("coverage_plot.png", units="in", width=15, height=10, res=300)
+plot_cov
+dev.off()
+
+pdf("coverage_plot.pdf")
 plot_cov
 dev.off()
