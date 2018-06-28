@@ -11,7 +11,7 @@
 #./scripts     Add this directory to your $PATH if desired
 #./analysis
  
-#Check that the correct parameters were given, and if so assign the variables of LIBRARY and GENOME and THREDS
+#Check that the correct parameters were given, and if so assign the variables of LIBRARY and GENOME and THREADS
 while [[ $# -gt 1 ]]
 do
 	key="$1"
