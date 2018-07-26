@@ -5,3 +5,4 @@ vcflib: https://github.com/vcflib/vcflib
 kWIP: https://kwip.readthedocs.io/en/latest/
 khmer (required for kWIP): http://khmer.readthedocs.io/en/v2.0/user/scripts.html
 virtualenv (also required for kWIP): https://virtualenv.pypa.io/en/stable/
+bcftools v1.9: http://www.htslib.org/download/
