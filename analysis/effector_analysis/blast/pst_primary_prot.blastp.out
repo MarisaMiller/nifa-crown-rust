@@ -1,0 +1,1810 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: Pst_104E_v12_p_ctg.anno.protein.fa
+           2,430 sequences; 781,202 total letters
+
+
+
+Query= PCA_SD_18894
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  evm.model.pcontig_028.215                                           26.6    0.26 
+  evm.model.pcontig_000.639                                           24.3    2.2  
+  evm.model.pcontig_030.82                                            23.5    4.5  
+  evm.model.pcontig_022.31                                            23.1    5.3  
+  evm.model.pcontig_006.462                                           23.1    6.5  
+  evm.model.pcontig_004.10                                            23.1    6.7  
+  evm.model.pcontig_064.81                                            22.3    9.2  
+
+
+> evm.model.pcontig_028.215
+Length=147
+
+ Score = 26.6 bits (57),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 13/41 (32%), Positives = 21/41 (51%), Gaps = 2/41 (5%)
+
+Query  6   YPLLLLVMLVSAIRCN--FGPPDPQRKDKHGIVHALNCPNA  44
+           Y   +LV+L++    N  FG P P  +D H    ++N P+ 
+Sbjct  6   YTFTVLVLLIAIFHVNPVFGTPVPTLEDGHHSEESVNQPDT  46
+
+
+> evm.model.pcontig_000.639
+Length=402
+
+ Score = 24.3 bits (51),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 9/21 (43%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  38   ALNCPNAFPTRDYTGAKCQLD  58
+             LNCP  +P RD+     QL+
+Sbjct  351  TLNCPTTYPCRDFKFQNIQLE  371
+
+
+> evm.model.pcontig_030.82
+Length=326
+
+ Score = 23.5 bits (49),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 27/71 (38%), Gaps = 8/71 (11%)
+
+Query  10   LLVMLVSAIRCNFGPPDPQRKDKHGIVHALNCPNAFPTRDYTGAKCQLDNCNNWIEDAEY  69
+            L  M       N   P P  K    +  A  C NA    D T A C L++CN     A  
+Sbjct  139  LAEMAAMDTSSNSTQPTPDPKTLSEVQTAAICKNA----DLT-AVCVLNSCNITTAPAPV  193
+
+Query  70   HWYCMSCSEYT  80
+               C SC EYT
+Sbjct  194  ---CQSCYEYT  201
+
+
+> evm.model.pcontig_022.31
+Length=747
+
+ Score = 23.1 bits (48),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 10/32 (31%), Positives = 15/32 (47%), Gaps = 0/32 (0%)
+
+Query  70   HWYCMSCSEYTSPNEVEIPICPSHKKKPRWIM  101
+            HW        TS    EIP  P  ++K R+++
+Sbjct  503  HWVDYPAPSRTSEGSDEIPSTPDFRQKMRFLL  534
+
+
+> evm.model.pcontig_006.462
+Length=1085
+
+ Score = 23.1 bits (48),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 10/30 (33%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  93   HKKKPRWIMCFKKGALQVASQGGFQDCYQL  122
+            H K P +I  F+ GA       G+++C +L
+Sbjct  282  HLKSPPFIPEFQAGAYDSWGATGYENCRKL  311
+
+
+> evm.model.pcontig_004.10
+Length=600
+
+ Score = 23.1 bits (48),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 10/26 (38%), Positives = 18/26 (69%), Gaps = 1/26 (4%)
+
+Query  83   NEVEIPICPSHKKKPRWIMCFKKGAL  108
+            N++EI I P H++KP +++  K G +
+Sbjct  41   NQLEIIIDP-HERKPSYLVSGKNGVV  65
+
+
+> evm.model.pcontig_064.81
+Length=539
+
+ Score = 22.3 bits (46),  Expect = 9.2, Method: Composition-based stats.
+ Identities = 7/13 (54%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  24   PPDPQRKDKHGIV  36
+            PP P+R+ K G+V
+Sbjct  140  PPAPKRRKKDGVV  152
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.484    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 40172352
+
+
+Query= PCA_SD_18895
+
+Length=143
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  evm.model.pcontig_006.293                                           104     1e-30
+  evm.model.pcontig_006.290                                           75.1    3e-19
+  evm.model.pcontig_060.94                                            32.3    0.005
+  evm.model.pcontig_060.95                                            30.0    0.023
+  evm.model.pcontig_039.181                                           29.6    0.037
+  evm.model.pcontig_039.87                                            29.3    0.050
+  evm.model.pcontig_064.39                                            28.5    0.084
+  evm.model.pcontig_060.96                                            26.9    0.26 
+  evm.model.pcontig_025.161                                           26.2    0.29 
+  evm.model.pcontig_005.25                                            26.9    0.35 
+  evm.model.pcontig_016.64                                            26.6    0.36 
+  evm.model.pcontig_060.97                                            26.2    0.53 
+  evm.model.pcontig_064.36                                            23.9    3.3  
+  evm.model.pcontig_012.4                                             23.9    3.3  
+  evm.model.pcontig_047.54                                            23.5    3.4  
+  evm.model.pcontig_045.45                                            23.1    3.6  
+  evm.model.pcontig_064.49                                            23.5    4.5  
+  evm.model.pcontig_050.85                                            23.5    5.0  
+  evm.model.pcontig_092.34                                            23.1    5.4  
+  evm.model.pcontig_047.137                                           23.1    6.0  
+  evm.model.pcontig_011.147                                           22.7    6.8  
+  evm.model.pcontig_030.137                                           23.1    7.2  
+  evm.model.pcontig_003.338                                           22.7    8.0  
+
+
+> evm.model.pcontig_006.293
+Length=154
+
+ Score = 104 bits (260),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 61/148 (41%), Positives = 86/148 (58%), Gaps = 13/148 (9%)
+
+Query  1    MTLFNLKSST-FVAVFLFIVLSSTSSVASLALERRDGDPHDTSCNSYCN--------ELV  51
+            M LFNL+SST  VA    ++L+S+S V +  LERRD    +T   ++C+         +V
+Sbjct  1    MALFNLRSSTILVATVFLVLLNSSSQVGARTLERRD--LPETQTKAFCDGKPRGDIPPVV  58
+
+Query  52   PHDCNVAFYNLPFEGDNKILKGDG-VIYRDSGTCRVSVDCH-GESNVSAGRLLNKDGQTP  109
+             HDCNVAF    FEG +K+ +GD  +I   S TCRV +DC   ++  SAGR+L  + +  
+Sbjct  59   EHDCNVAFTKFGFEGKDKVARGDSSLITSVSETCRVILDCPTKDAAASAGRMLTNNRRDG  118
+
+Query  110  GFTLLQNRCTSQGQSGQTWVDANCYIKT  137
+            GF  +Q  CT QGQ+GQ  ++  C I T
+Sbjct  119  GFQKIQEMCTRQGQTGQIHIEGGCIINT  146
+
+
+> evm.model.pcontig_006.290
+Length=144
+
+ Score = 75.1 bits (183),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 47/138 (34%), Positives = 68/138 (49%), Gaps = 3/138 (2%)
+
+Query  1    MTLFNLKSSTFVAVFLFIVLSSTSSVASLALERR-DGDPHDTSCNSYCNELVPHDCNVAF  59
+            M+LFNL+    VA  L + L   S      LERR D  P D  C    +++   DC VA 
+Sbjct  1    MSLFNLRH-MLVATVLMVFLGLPSRGVDAILERRQDPAPFDAHCAPGHSDIQARDCEVAV  59
+
+Query  60   YNLPF-EGDNKILKGDGVIYRDSGTCRVSVDCHGESNVSAGRLLNKDGQTPGFTLLQNRC  118
+             NLPF E    ++ G   +     TCRV V C  ++  ++  LL+ + Q  GF LL  +C
+Sbjct  60   LNLPFTEKRGVLVTGGTYVVSAFKTCRVIVSCATQTQTTSMALLSNNYQGGGFNLLDTKC  119
+
+Query  119  TSQGQSGQTWVDANCYIK  136
+               G +G+ + D +C I+
+Sbjct  120  GPNGLAGRIFFDQDCSIR  137
+
+
+> evm.model.pcontig_060.94
+Length=247
+
+ Score = 32.3 bits (72),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 21/74 (28%), Positives = 36/74 (49%), Gaps = 1/74 (1%)
+
+Query  16  LFIVLSSTSSVASLALERRDGDPHDTSCNSYCNELVPHDCNVAFYNLPFEGDNKILKGDG  75
+           +FIV  S  +      +     P D  C++   +L P DC  A+  + ++GD+     + 
+Sbjct  7   VFIVAVSLLNAGKSLQQAGKPAPLDIKCSNK-KQLRPADCVSAYKKIIYDGDSTTDIMES  65
+
+Query  76  VIYRDSGTCRVSVD  89
+           +I R  GTC V+V+
+Sbjct  66  LIERVFGTCTVAVE  79
+
+
+> evm.model.pcontig_060.95
+Length=247
+
+ Score = 30.0 bits (66),  Expect = 0.023, Method: Compositional matrix adjust.
+ Identities = 19/76 (25%), Positives = 36/76 (47%), Gaps = 2/76 (3%)
+
+Query  14  VFLFIVLSSTSSVASLALERRDGDPHDTSCNSYCNELVPHDCNVAFYNLPFEGDNKILKG  73
+           V L + +S  ++  SL    +   P D  C++   +L+P DC  A+  + + GD+     
+Sbjct  6   VILIVAISLLNAGESLQQAGKPA-PLDIKCSNK-KQLLPADCIKAYQQIIYNGDSTTDSN  63
+
+Query  74  DGVIYRDSGTCRVSVD  89
+            G I +  G+C   ++
+Sbjct  64  AGKIEKAFGSCTTVIE  79
+
+
+> evm.model.pcontig_039.181
+Length=218
+
+ Score = 29.6 bits (65),  Expect = 0.037, Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 27/58 (47%), Gaps = 1/58 (2%)
+
+Query  27  ASLALERRDGDPHDTSCNSYCNELVPHDCNVAFYNLPFEGDNKILKGDGVIYRDSGTC  84
+           A  +L+     P D  C+     +   DC+ A+  + +E D+ + K  G I R SG C
+Sbjct  17  AGSSLQATAPAPADVKCDPK-RVVSSADCDKAWAKIKYEADSTLFKESGHIERISGNC  73
+
+
+> evm.model.pcontig_039.87
+Length=250
+
+ Score = 29.3 bits (64),  Expect = 0.050, Method: Compositional matrix adjust.
+ Identities = 16/65 (25%), Positives = 30/65 (46%), Gaps = 6/65 (9%)
+
+Query  54   DCNVAFYNLPFEGDNKILKGDGVIYRDSGTCRVSVDCHGESNVSAGRLLNKDGQTPGFTL  113
+            DC  A+  + +E D+ + + +G I R  G C V V    E+      ++++     GF  
+Sbjct  41   DCPKAYAKIIYEADSTLYRKEGHIERAHGNCVVVVTKTAET------IVDQKMVETGFKK  94
+
+Query  114  LQNRC  118
+            +  +C
+Sbjct  95   MMGQC  99
+
+
+> evm.model.pcontig_064.39
+Length=271
+
+ Score = 28.5 bits (62),  Expect = 0.084, Method: Compositional matrix adjust.
+ Identities = 25/77 (32%), Positives = 32/77 (42%), Gaps = 8/77 (10%)
+
+Query  19   VLSSTSSVASLALERRDGDP----HDTSCNSYCNELVPHDCNVAFYNLPFEGDNKILKGD  74
+            VLS ++SVA L +ER D           CN     L   DC  AFY LP       + G 
+Sbjct  136  VLSQSASVA-LKIERGDAKNVYKFDQPVCNKEKCPLNRSDCLSAFYQLPTNAMGVFVNGK  194
+
+Query  75   G---VIYRDSGTCRVSV  88
+            G   +    SG C ++ 
+Sbjct  195  GRTSIARATSGNCTITA  211
+
+
+> evm.model.pcontig_060.96
+Length=247
+
+ Score = 26.9 bits (58),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 22/97 (23%), Positives = 41/97 (42%), Gaps = 2/97 (2%)
+
+Query  14   VFLFIVLSSTSSVASLALERRDGDPHDTSCNSYCNELVPHDCNVAFYNLPFEGDNKILKG  73
+            V   +V+S  ++  SL    +   P D  C++   +L P DC  A+  + +E D+     
+Sbjct  6    VAFILVISLLNAGKSLQQAGKPA-PLDIKCSNK-KQLRPADCVKAYQKIIYEADSTTDTT  63
+
+Query  74   DGVIYRDSGTCRVSVDCHGESNVSAGRLLNKDGQTPG  110
+            +  I +  GTC   ++      V   ++ +   Q  G
+Sbjct  64   EVKIEKVFGTCTTVIENPKHQKVPKAKIEDAFNQMGG  100
+
+
+> evm.model.pcontig_025.161
+Length=115
+
+ Score = 26.2 bits (56),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 17/89 (19%), Positives = 33/89 (37%), Gaps = 20/89 (22%)
+
+Query  48   NELVPHDCNVAFYNLPFEGDNKILKGDGVIYRDSGTCRVSVDCHGESNVSAGRLLNKDGQ  107
+            N+++  DC+ A   + +  DN++         +S  C +              L N DG 
+Sbjct  28   NDVIKEDCHAAIDKIVYNKDNRLDTTSKHFDYNSKNCSIV-------------LTNPDGI  74
+
+Query  108  TP-------GFTLLQNRCTSQGQSGQTWV  129
+            +P       G+  + N+C  +      W+
+Sbjct  75   SPTKDQVLAGYDQILNQCVPKASQASIWL  103
+
+
+> evm.model.pcontig_005.25
+Length=382
+
+ Score = 26.9 bits (58),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 19/38 (50%), Gaps = 3/38 (8%)
+
+Query  54   DCNVAFYNLPFEGDNKILKGDGV---IYRDSGTCRVSV  88
+            DC  AFY LP + +   + G G+   +   SG C V+ 
+Sbjct  285  DCLSAFYQLPTDSNGTFVNGKGMTPFVRVTSGNCTVTA  322
+
+
+> evm.model.pcontig_016.64
+Length=246
+
+ Score = 26.6 bits (57),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 20/73 (27%), Positives = 34/73 (47%), Gaps = 3/73 (4%)
+
+Query  17  FIVLSSTSSVASLALERRDGDPHDTSCNSYCNELVPHDCNVAFYNLPFEGDNKILKGDGV  76
+           FIV+ S    AS  LE+      D  C     +L+P DC  A+  + ++ D+ +      
+Sbjct  8   FIVVISVLLNASNTLEQ--AGKLDVKCAKK-KQLIPADCVSAYKKIIYDRDSNLDTTASS  64
+
+Query  77  IYRDSGTCRVSVD  89
+           I R  G+C  +++
+Sbjct  65  IQRAYGSCVTNIN  77
+
+
+> evm.model.pcontig_060.97
+Length=231
+
+ Score = 26.2 bits (56),  Expect = 0.53, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 19/35 (54%), Gaps = 0/35 (0%)
+
+Query  54  DCNVAFYNLPFEGDNKILKGDGVIYRDSGTCRVSV  88
+           DC+ A+  + +E D+ + K    I R SG C V V
+Sbjct  44  DCDKAWAKIKYEPDSSLFKLSRHIERASGNCVVIV  78
+
+
+> evm.model.pcontig_064.36
+Length=306
+
+ Score = 23.9 bits (50),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 22/42 (52%), Gaps = 2/42 (5%)
+
+Query  52   PHDCNVAFYNLPFE--GDNKILKGDGVIYRDSGTCRVSVDCH  91
+            P+DC +AF  +P +  G+ K    + VI+   G C V +  H
+Sbjct  143  PNDCLLAFNQIPVDHSGNFKPNFENDVIHVKRGNCTVCLTYH  184
+
+
+> evm.model.pcontig_012.4
+Length=242
+
+ Score = 23.9 bits (50),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 34/83 (41%), Gaps = 8/83 (10%)
+
+Query  43   CNSYCNELVPHDCNVAFYNLPFEGDNKILKGDG----VIYRDSGTCRVSVDCHGESNVSA  98
+            C    N +   DC  AF  +     N ++  DG    V +   GTC V V     S++SA
+Sbjct  135  CVGTKNLVKDQDCMAAFDKIHTNAQNIVVHNDGQASNVEHASVGTCDVGV---FTSDMSA  191
+
+Query  99   GRLLNKDGQTPGFTLLQNRCTSQ  121
+              +  KD   P   L+ + C  Q
+Sbjct  192  ITVAKKDLLGP-LKLMLSTCKGQ  213
+
+
+> evm.model.pcontig_047.54
+Length=136
+
+ Score = 23.5 bits (49),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 28/127 (22%), Positives = 52/127 (41%), Gaps = 24/127 (19%)
+
+Query  6    LKSSTFVAVFLFIVLSSTSS--VASLALERR-----DGDPHDTSCNSYCNELVPHDCNVA  58
+            + S++F+AVF+ +++   +S   AS    R+       + +  SCN   N +    C  +
+Sbjct  1    MPSASFLAVFIVVLIGQVASDGTASTDGARKCTFYTGANTNSASCNEIPNLICTEGCRDS  60
+
+Query  59   FYN----LPFEGDNK-----ILKGDGVIYRDSGTCRVSVDCHGESNVSAGRLLNKDGQTP  109
+            F      LP +G        I   +G   RD+   +  +   G  + +        G+T 
+Sbjct  61   FVTAEGCLPNDGSGSDAQPTIQVCNGSFGRDTARAKACLTLTGGYSCT--------GKTS  112
+
+Query  110  GFTLLQN  116
+            G+T+  N
+Sbjct  113  GYTITSN  119
+
+
+> evm.model.pcontig_045.45
+Length=90
+
+ Score = 23.1 bits (48),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 18/48 (38%), Positives = 21/48 (44%), Gaps = 7/48 (15%)
+
+Query  95   NVSAGRLLNKDGQTP-------GFTLLQNRCTSQGQSGQTWVDANCYI  135
+            N+ AG  L K+   P       GF L  N+ TSQG  G    D   YI
+Sbjct  38   NIEAGGDLVKNILIPKSTIPCRGFRLCCNKNTSQGALGYAPNDVTKYI  85
+
+
+> evm.model.pcontig_064.49
+Length=594
+
+ Score = 23.5 bits (49),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 26/49 (53%), Gaps = 10/49 (20%)
+
+Query  81   SGTCRVSVDC-----HG----ESNVSAGRLLNKDGQTPGFTLLQNRCTS  120
+            SGT  + V C     HG    E N+ AGR++NK  + PG +L  ++  S
+Sbjct  5    SGTLGMVVLCCLRAFHGMDTMEINI-AGRIINKPIEIPGMSLDMDQVPS  52
+
+
+> evm.model.pcontig_050.85
+Length=666
+
+ Score = 23.5 bits (49),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 11/22 (50%), Positives = 12/22 (55%), Gaps = 0/22 (0%)
+
+Query  90   CHGESNVSAGRLLNKDGQTPGF  111
+            C G S +S G LLN  G  P F
+Sbjct  197  CAGGSFLSNGTLLNIGGNAPEF  218
+
+
+> evm.model.pcontig_092.34
+Length=239
+
+ Score = 23.1 bits (48),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 33/72 (46%), Gaps = 8/72 (11%)
+
+Query  50   LVPHDCNVAFYNLPFEGDNKILKGDGVIYRDS---GTCRVSVDCHGESNVSAGRLLNKDG  106
+            L   DC  AF +LP +  N I  G   +Y  +   G C+V++     ++ +  R    + 
+Sbjct  139  LTSQDCMDAFQSLPVD-RNGIFIGQERLYSSNATRGNCQVTI---STTDYAPFRASPVEV  194
+
+Query  107  QTPGFTLLQNRC  118
+              P F LL N+C
+Sbjct  195  SEP-FRLLVNKC  205
+
+
+> evm.model.pcontig_047.137
+Length=344
+
+ Score = 23.1 bits (48),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 11/36 (31%), Positives = 17/36 (47%), Gaps = 0/36 (0%)
+
+Query  53   HDCNVAFYNLPFEGDNKILKGDGVIYRDSGTCRVSV  88
+            H CN A   + F  +  + K   +I+ +  TC V V
+Sbjct  144  HHCNKALNKIVFAANQTLDKFSSLIFGNYKTCNVYV  179
+
+
+> evm.model.pcontig_011.147
+Length=254
+
+ Score = 22.7 bits (47),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 10/39 (26%), Positives = 18/39 (46%), Gaps = 4/39 (10%)
+
+Query  54  DCNVAF----YNLPFEGDNKILKGDGVIYRDSGTCRVSV  88
+           DC  A     Y    +GD  ++ G+ ++   +G C V +
+Sbjct  43  DCTKALGGIVYTGQVQGDKLLMSGETIVQSIAGNCNVQI  81
+
+
+> evm.model.pcontig_030.137
+Length=3222
+
+ Score = 23.1 bits (48),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 14/24 (58%), Gaps = 0/24 (0%)
+
+Query  55    CNVAFYNLPFEGDNKILKGDGVIY  78
+             C VA  NLP  G ++ ++ DG  Y
+Sbjct  3034  CQVARLNLPPNGLSEKIQSDGSWY  3057
+
+
+> evm.model.pcontig_003.338
+Length=738
+
+ Score = 22.7 bits (47),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 15/32 (47%), Positives = 19/32 (59%), Gaps = 7/32 (22%)
+
+Query  78   YRDSGTCRVSVDCH----GESNVSAGRLLNKD  105
+            YRDSG   V +  H    GE+ + A R+LNKD
+Sbjct  557  YRDSG---VMLTRHHGNIGENGMLAVRILNKD  585
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 43043182
+
+
+Query= PCASD_01746
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  evm.model.pcontig_002.95                                            293     6e-103
+  evm.model.pcontig_022.143                                           271     2e-94 
+  evm.model.pcontig_022.106                                           267     9e-93 
+  evm.model.pcontig_046.113                                           266     2e-92 
+  evm.model.pcontig_002.92                                            258     4e-89 
+  evm.model.pcontig_022.153                                           249     1e-85 
+  evm.model.pcontig_021.259                                           229     1e-77 
+  evm.model.pcontig_042.130                                           184     4e-60 
+  evm.model.pcontig_021.222                                           171     4e-55 
+  evm.model.pcontig_042.129                                           151     7e-47 
+  evm.model.pcontig_020.303                                           146     3e-45 
+  evm.model.pcontig_033.158                                           141     2e-42 
+  evm.model.pcontig_022.129                                           119     7e-35 
+  evm.model.pcontig_040.45                                            92.8    3e-24 
+  evm.model.pcontig_021.198                                           67.0    8e-15 
+  evm.model.pcontig_065.77                                            58.9    5e-12 
+  evm.model.pcontig_021.197                                           55.8    8e-11 
+  evm.model.pcontig_049.139                                           53.5    5e-10 
+  evm.model.pcontig_049.69                                            53.1    6e-10 
+  evm.model.pcontig_021.297                                           52.4    1e-09 
+  evm.model.pcontig_006.13                                            47.4    6e-08 
+  evm.model.pcontig_006.15                                            45.8    2e-07 
+  evm.model.pcontig_181.9                                             40.8    1e-05 
+  evm.model.pcontig_037.200                                           40.8    1e-05 
+  evm.model.pcontig_006.278                                           35.8    5e-04 
+  evm.model.pcontig_046.98                                            28.5    0.16  
+  evm.model.pcontig_036.95                                            26.9    0.65  
+  evm.model.pcontig_012.2                                             24.6    3.9   
+  evm.model.pcontig_029.12                                            24.3    4.6   
+  evm.model.pcontig_050.164                                           24.3    4.6   
+  evm.model.pcontig_055.66                                            24.3    5.0   
+  evm.model.pcontig_026.94                                            24.3    5.4   
+  evm.model.pcontig_042.188                                           23.1    8.5   
+  evm.model.pcontig_012.122                                           22.3    9.1   
+  evm.model.pcontig_037.107                                           22.3    9.1   
+
+
+> evm.model.pcontig_002.95
+Length=216
+
+ Score = 293 bits (749),  Expect = 6e-103, Method: Compositional matrix adjust.
+ Identities = 136/216 (63%), Positives = 162/216 (75%), Gaps = 1/216 (0%)
+
+Query  1    MKATTIAVFFALALPAVMAKGHSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNPAQK  60
+            MKA+T  +F A  L AV A  H+ CYNYF++KDGCV+SAA P +RCP P K   ++P   
+Sbjct  1    MKASTTIIFLAPLLSAVHATNHTVCYNYFLQKDGCVFSAAAPDQRCPAPVK-GSSSPVNA  59
+
+Query  61   FVMNPGAAKGKRSKDSLERRYDTTRPSFAVGGGKGICGFYNSTTELGVCLWSGPEQNNPT  120
+            FVMNPG A  KRS+  LERRYDTTRPSFAV GG GICG YNST ELGVCLWSG EQ NPT
+Sbjct  60   FVMNPGTANVKRSRVDLERRYDTTRPSFAVAGGTGICGDYNSTAELGVCLWSGAEQKNPT  119
+
+Query  121  ADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKAYDPGCFDIALTIKLF  180
+             +T+GW+NG K+ NC K +Y+QRK  P +V++V VLDGC F   + DPGCFDIALT+KLF
+Sbjct  120  VETAGWLNGAKTSNCGKRIYIQRKGQPDTVKFVKVLDGCSFGATSPDPGCFDIALTLKLF  179
+
+Query  181  ERFNPTADERRDGLLYGGLTWDFDNINGTHPQNAPI  216
+            E FNPT  E+ DG+LYGG+TWDFDN+ G   Q AP+
+Sbjct  180  ELFNPTEQEQNDGVLYGGITWDFDNLLGKSTQQAPV  215
+
+
+> evm.model.pcontig_022.143
+Length=211
+
+ Score = 271 bits (693),  Expect = 2e-94, Method: Compositional matrix adjust.
+ Identities = 128/218 (59%), Positives = 161/218 (74%), Gaps = 10/218 (5%)
+
+Query  1    MKATTIAVFFALALPAVMAKGHSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNPA--  58
+            M+ATT A+F A++L AV A  H+ CYNYF++KDGCV+SAA   +RCP P K    +PA  
+Sbjct  1    MRATTSAIFLAISLSAVKATVHTVCYNYFLQKDGCVFSAAAANQRCPAPPKE---HPAEV  57
+
+Query  59   QKFVMNPGAAKGKRSKDSLERRYDTTRPSFAVGGGKGICGFYNSTTELGVCLWSGPEQNN  118
+            Q F +N  A K KRS + LERRYDTT PSFA+GGG G CGFYNS  +LGVCLW+G EQNN
+Sbjct  58   QAFALNSTAQKVKRSVNKLERRYDTTAPSFAIGGGNGTCGFYNSVNQLGVCLWNGAEQNN  117
+
+Query  119  PTADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKAYDPGCFDIALTIK  178
+            PT  T+GW+NG K+ NC K +Y+QRK  P++VQ+V VLD       + DPGCFDI LTIK
+Sbjct  118  PTIKTAGWLNGAKTSNCGKRIYIQRKGQPNTVQFVKVLDA-----TSPDPGCFDIGLTIK  172
+
+Query  179  LFERFNPTADERRDGLLYGGLTWDFDNINGTHPQNAPI  216
+            LF  FNPT +E+RDG++ GG+TWDF+N++G  PQ AP+
+Sbjct  173  LFNAFNPTPEEQRDGVIKGGITWDFNNLHGLSPQQAPV  210
+
+
+> evm.model.pcontig_022.106
+Length=216
+
+ Score = 267 bits (683),  Expect = 9e-93, Method: Compositional matrix adjust.
+ Identities = 125/217 (58%), Positives = 159/217 (73%), Gaps = 3/217 (1%)
+
+Query  1    MKATTIAVFFALALPAVMAKGHSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNPAQK  60
+            MKATT+A+  A++  AV+A  H+ CYNYF++KDGCV+SAAD R RCP P K    +P ++
+Sbjct  1    MKATTVAILLAISFQAVLATIHTTCYNYFLEKDGCVFSAADARNRCPAPIKD-HDDPVKQ  59
+
+Query  61   F-VMNPGAAKGKRSKDSLERRYDTTRPSFAVGGGKGICGFYNSTTELGVCLWSGPEQNNP  119
+            F  MNP   K +  + SL RRYD    SFAV GGKGICG YNSTT+LGVCLWSG EQ +P
+Sbjct  60   FNCMNPKVVK-RSERHSLGRRYDDNDGSFAVAGGKGICGTYNSTTDLGVCLWSGAEQKSP  118
+
+Query  120  TADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKAYDPGCFDIALTIKL  179
+            T +++GW+NGLK+ NC K VYVQRK  P +V+YV VLDGC FD  A   GCF IALT KL
+Sbjct  119  TVESAGWLNGLKTSNCGKQVYVQRKGQPKTVKYVKVLDGCSFDTTALSTGCFQIALTSKL  178
+
+Query  180  FERFNPTADERRDGLLYGGLTWDFDNINGTHPQNAPI  216
+            F+ FNPTA E++DGL+  G++WDF+N+ G + Q+ P+
+Sbjct  179  FDEFNPTAKEKKDGLILDGISWDFNNLLGQNLQSGPV  215
+
+
+> evm.model.pcontig_046.113
+Length=217
+
+ Score = 266 bits (681),  Expect = 2e-92, Method: Compositional matrix adjust.
+ Identities = 124/217 (57%), Positives = 153/217 (71%), Gaps = 2/217 (1%)
+
+Query  1    MKATTIAVFFALALPAVMAKGHSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNPAQK  60
+            MKATT A+F AL+L AV A  H+ CYNYF+KKDGCV+SAA   +RCP P K   + P + 
+Sbjct  1    MKATTTAIFVALSLSAVTATNHTACYNYFLKKDGCVFSAAAADQRCPAPVKE-HSAPVKA  59
+
+Query  61   FVMNPGA-AKGKRSKDSLERRYDTTRPSFAVGGGKGICGFYNSTTELGVCLWSGPEQNNP  119
+            F     A  + KRS++ LERRY T  PSF++  G+GICG YNSTT  GVCLWSG EQ NP
+Sbjct  60   FHAKHKANRRAKRSENELERRYTTVTPSFSISDGEGICGHYNSTTTAGVCLWSGSEQENP  119
+
+Query  120  TADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKAYDPGCFDIALTIKL  179
+            T +++GW+NG+K+ NC K VY+QRK  P +V+Y PVLDGC FD K+   GCFDIA+TIKL
+Sbjct  120  TLESAGWLNGVKTSNCGKRVYIQRKGHPETVKYAPVLDGCCFDTKSLAEGCFDIAVTIKL  179
+
+Query  180  FERFNPTADERRDGLLYGGLTWDFDNINGTHPQNAPI  216
+            F  FNPT  E   G+L GGL WDFD++ G   Q AP+
+Sbjct  180  FNEFNPTQKEIESGMLEGGLIWDFDSLYGKSLQQAPV  216
+
+
+> evm.model.pcontig_002.92
+Length=215
+
+ Score = 258 bits (659),  Expect = 4e-89, Method: Compositional matrix adjust.
+ Identities = 124/216 (57%), Positives = 150/216 (69%), Gaps = 2/216 (1%)
+
+Query  1    MKATTIAVFFALALPAVMAKGHSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNPAQK  60
+            MKA+T  +F A  L  V A  H+ CYNY+M+KDGCV+SAA   +RCP P K     P + 
+Sbjct  1    MKASTTVIFIAPLLSVVHATTHTVCYNYYMQKDGCVFSAAAQDQRCPAPPKD-HPAPCKT  59
+
+Query  61   FVMNPGAAKGKRSKDSLERRYDTTRPSFAVGGGKGICGFYNSTTELGVCLWSGPEQNNPT  120
+            F  +PGA+K KRS   LERRY T +PSFAVGGG G CGFYNSTTE GVCLW+G EQNNPT
+Sbjct  60   FT-HPGASKAKRSVADLERRYVTPKPSFAVGGGTGTCGFYNSTTEAGVCLWNGAEQNNPT  118
+
+Query  121  ADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKAYDPGCFDIALTIKLF  180
+             DT+GW+NG K+ NC K +Y+QR   P + QYV VLDGC F   +  PGC ++ LTI+LF
+Sbjct  119  IDTAGWLNGAKTSNCGKRIYIQRTGKPETRQYVKVLDGCYFGATSPKPGCSEVGLTIQLF  178
+
+Query  181  ERFNPTADERRDGLLYGGLTWDFDNINGTHPQNAPI  216
+              F PT  E +DGL+YGGL+W FDN   T PQ AP+
+Sbjct  179  NLFKPTEKENQDGLIYGGLSWQFDNTLNTSPQQAPV  214
+
+
+> evm.model.pcontig_022.153
+Length=216
+
+ Score = 249 bits (636),  Expect = 1e-85, Method: Compositional matrix adjust.
+ Identities = 116/216 (54%), Positives = 144/216 (67%), Gaps = 1/216 (0%)
+
+Query  1    MKATTIAVFFALALPAVMAKGHSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNPAQK  60
+            M+ATT A+  A++L AV A  H+ CYN+FM++DGCV+SAA   +RCP P K         
+Sbjct  1    MRATTTAILLAISLSAVKATIHTTCYNFFMQRDGCVFSAAGANQRCPAPPKE-HPGAVSA  59
+
+Query  61   FVMNPGAAKGKRSKDSLERRYDTTRPSFAVGGGKGICGFYNSTTELGVCLWSGPEQNNPT  120
+            F +       KRS + LERRYD+  PSFAV GG GICGFY+S    GVCLWSG EQNNPT
+Sbjct  60   FTLQTSGRNFKRSDNELERRYDSRNPSFAVAGGTGICGFYDSVNTPGVCLWSGAEQNNPT  119
+
+Query  121  ADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKAYDPGCFDIALTIKLF  180
+              T+GW+NG K+ NC K VYVQR   P++ QYV VLDGCG  + A  PGC D+A+T+KLF
+Sbjct  120  VSTAGWLNGFKTSNCGKRVYVQRTGQPNTRQYVKVLDGCGLGDTAPIPGCLDLAVTLKLF  179
+
+Query  181  ERFNPTADERRDGLLYGGLTWDFDNINGTHPQNAPI  216
+              FNPT  E + G + GGLTW+FDN+ G   Q  P+
+Sbjct  180  NLFNPTEAENQAGKIIGGLTWEFDNVYGLSTQQGPV  215
+
+
+> evm.model.pcontig_021.259
+Length=215
+
+ Score = 229 bits (583),  Expect = 1e-77, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 138/216 (64%), Gaps = 2/216 (1%)
+
+Query  1    MKATTIAVFFALALPAVMAKGHSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNPAQK  60
+            M  T+I +   L + +V A  H+ CYN+F+KKDGCV+++A    RC  P KH  T P ++
+Sbjct  1    MNTTSIFLICTLFIVSVKATIHTTCYNHFLKKDGCVFASASNNTRCKAPPKHNPT-PVKQ  59
+
+Query  61   FVMNPGAAKGKRSKDSLERRYDTTRPSFAVGGGKGICGFYNSTTELGVCLWSGPEQNNPT  120
+            F +     K +     LERRY+T  P F +GGG G CG Y ST E+GVC+WSG EQ+NPT
+Sbjct  60   FALVSQNTK-RSGHHHLERRYNTQEPVFPIGGGTGNCGLYTSTDEIGVCVWSGAEQSNPT  118
+
+Query  121  ADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKAYDPGCFDIALTIKLF  180
+            A+T+GW+N LK+ NC K +YV R   P +VQY  VLDGC F+    D GC  I L+IKLF
+Sbjct  119  AETAGWVNSLKTSNCGKRIYVHRTGKPETVQYAKVLDGCSFNTTELDIGCTQIGLSIKLF  178
+
+Query  181  ERFNPTADERRDGLLYGGLTWDFDNINGTHPQNAPI  216
+             +FNP+  E  D LLYGGLTWDFDN+ G      PI
+Sbjct  179  AKFNPSDKETADQLLYGGLTWDFDNLYGQSTAQGPI  214
+
+
+> evm.model.pcontig_042.130
+Length=211
+
+ Score = 184 bits (467),  Expect = 4e-60, Method: Compositional matrix adjust.
+ Identities = 90/195 (46%), Positives = 121/195 (62%), Gaps = 6/195 (3%)
+
+Query  22   HSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNPAQKFVMNPGAAKGKRSKDSLERRY  81
+            H+ C+N+FMKKD CV++AA    RC  P K     P   FVM     +  + +  LERRY
+Sbjct  22   HTLCFNFFMKKDKCVHAAAGQSIRCDAPPK-PHDKPVTAFVM-----QTPKPQSRLERRY  75
+
+Query  82   DTTRPSFAVGGGKGICGFYNSTTELGVCLWSGPEQNNPTADTSGWINGLKSDNCRKGVYV  141
+            +T   +  +  G GICG YN+  E GVCLWSGPEQ +PT +++GW+NG+K+ NCRK VY+
+Sbjct  76   NTNGDTILMSSGPGICGEYNTEKEDGVCLWSGPEQVHPTINSAGWLNGVKTSNCRKQVYI  135
+
+Query  142  QRKNDPHSVQYVPVLDGCGFDNKAYDPGCFDIALTIKLFERFNPTADERRDGLLYGGLTW  201
+            QR ++P    YVPVLDGCGF     + GCF+I +T  L  +     +E  D  LYGG TW
+Sbjct  136  QRHDEPDKPFYVPVLDGCGFHKTKPEEGCFEIGVTKSLARKLRRFPNETDDTPLYGGFTW  195
+
+Query  202  DFDNINGTHPQNAPI  216
+            DF+N+ G +P   P+
+Sbjct  196  DFNNLLGNNPDAGPV  210
+
+
+> evm.model.pcontig_021.222
+Length=215
+
+ Score = 171 bits (434),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 91/219 (42%), Positives = 125/219 (57%), Gaps = 8/219 (4%)
+
+Query  1    MKATTIAVFFALALPAVMAKGHSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNPAQK  60
+            M A+ +AV FAL++  V A  H+GCYN+F+K DGCV++A DP  RC  P K     P   
+Sbjct  1    MLASLVAVIFALSVYTVGATPHTGCYNHFLKVDGCVHAANDPNVRCGAPNKTTHDRP---  57
+
+Query  61   FVMNPGAAKGKRSKDSLERRYDTTRPSFAVG--GGKG-ICGFYNSTTELGVCLWSGPEQN  117
+            +  N   A  K+S   L +RYDT  P + +G  GG G +C  Y+S  +L VCLW+GP+  
+Sbjct  58   YKFNGPQAAPKQS--PLVKRYDTKLPPYQIGRIGGIGPVCKKYDSNRDLAVCLWNGPDSK  115
+
+Query  118  NPTADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKAYDPGCFDIALTI  177
+              T ++SGW+N  K+ NC K VYV RK D  + Q+  +++GC F  K +  GC  I L+ 
+Sbjct  116  KHTPESSGWLNEAKTSNCGKRVYVMRKTDVGNTQFAQIVEGCDFPTKNFTIGCAQIGLSN  175
+
+Query  178  KLFERFNPTADERRDGLLYGGLTWDFDNINGTHPQNAPI  216
+             LF     T  E   G L   L WD+D+ +G H Q AP+
+Sbjct  176  ALFRALKATPQEEDQGFLNTPLIWDYDSFSGQHTQQAPV  214
+
+
+> evm.model.pcontig_042.129
+Length=251
+
+ Score = 151 bits (382),  Expect = 7e-47, Method: Compositional matrix adjust.
+ Identities = 87/230 (38%), Positives = 118/230 (51%), Gaps = 36/230 (16%)
+
+Query  22   HSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNPAQKFVM----NPGAAKGKRSKD--  75
+            H+ C+NYF+ KD CV  AA  + RC    K+ Q+ P   F        GA  G   K+  
+Sbjct  22   HTLCFNYFLGKDKCVNGAAGQKIRCGAKAKY-QSKPVPAFGAPGKPGNGAKGGNHPKNQG  80
+
+Query  76   -----------------------------SLERRYDTTRPSFAVGGGKGICGFYNSTTEL  106
+                                         +LERRYDT      +  G+GIC  Y++T   
+Sbjct  81   HHAQNQGHHSKGQGHHATGGHHKGRGGKPALERRYDTHINIMKLQSGRGICDPYDTTKVD  140
+
+Query  107  GVCLWSGPEQNNPTADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKAY  166
+            GVCLWSGP+ +  T   +GW+N  K  NC K VY+QR++DP  V YVPVLDGC F+    
+Sbjct  141  GVCLWSGPKDSKATFSNAGWVNSRKDSNCGKKVYIQRRDDPDHVHYVPVLDGCPFNAVTP  200
+
+Query  167  DPGCFDIALTIKLFERFNPTADERRDGLLYGGLTWDFDNINGTHPQNAPI  216
+            + GCF+I +T+ L ++    A+E     LYGG TWDF N +G++PQ  P+
+Sbjct  201  EDGCFEIGVTVALAKKMQKFANETDSAELYGGFTWDFLNGDGSNPQWGPV  250
+
+
+> evm.model.pcontig_020.303
+Length=220
+
+ Score = 146 bits (369),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 92/228 (40%), Positives = 116/228 (51%), Gaps = 27/228 (12%)
+
+Query  1    MKATTIAVFFA-LALPAVMA-----KGHSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQ  54
+            MKAT   +F A L LPAVMA       HS CYNYF+ KD CV++A    +RCP P    Q
+Sbjct  1    MKATVAVIFLAVLILPAVMANPEPPSQHSTCYNYFLGKDKCVFAAKVDADRCPAPTNSHQ  60
+
+Query  55   TNPAQKFVMNPGAAKGKRSKDSL-ERRYDTTRPSFAVGGGKGICGFYNSTTE-------L  106
+                   +  P     KRS D L ERRYDTT         K +   Y            L
+Sbjct  61   KRSGSTPLFTPKTENMKRSNDHLLERRYDTT-----TKARKTVTMLYTCPEPQKPNPDGL  115
+
+Query  107  GVCLWSGPEQNNPTADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKAY  166
+            GVCLW+G       + ++GW+N     NC K +Y+QRK  P    Y  ++ GC F +K  
+Sbjct  116  GVCLWAGA-----GSKSTGWVNKEIHQNCGKQIYIQRKGVP--AIYPNIIGGCDFGDKVE  168
+
+Query  167  -DPGCFDIALTIKLFERFNPTADERRDGLLYGGLTWDFDNINGTHPQN  213
+             D GCF+IAL  KLFE   PT +E + G L  G+TWDF+N+ G   +N
+Sbjct  169  NDVGCFNIALNEKLFEALKPTEEECKAGSLSQGVTWDFNNLKGDKKEN  216
+
+
+> evm.model.pcontig_033.158
+Length=289
+
+ Score = 141 bits (355),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 81/234 (35%), Positives = 112/234 (48%), Gaps = 36/234 (15%)
+
+Query  15   PAVMAKGHSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNP-----------------  57
+            P V     S CYNYF++KDGCV+ A    ERCP         P                 
+Sbjct  59   PEVKRPKKSQCYNYFLEKDGCVFGAKKASERCPVKPDCGHEIPTDKPLVFKSHHSRSSQQ  118
+
+Query  58   ----------AQKFVMNPGAAKGKR-----SKDSLERRYDTTRPSFAVGGGKGICGFYNS  102
+                       Q F  +    + +      S   L RRYD+   SFA+ GG GICG Y +
+Sbjct  119  SFGLSVGPNGVQTFASSTDQEESQTEITAPSSKRLVRRYDSELDSFAIAGGDGICGTY-T  177
+
+Query  103  TTELGVCLWSGPEQNNPTADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFD  162
+              + GVCLW+   + +  A + GW+NG  +  C + V++QRK DP +  Y P++DGC F+
+Sbjct  178  DDQPGVCLWA--SELDTGAKSGGWMNGTYTKACGRVVFIQRKGDPDNTIYAPIVDGCSFN  235
+
+Query  163  NKAYDPGCFDIALTIKLFERFNPTADERRDGLLYGGLTWDFDNINGTHPQNAPI  216
+                +PGCF I  T   F + NPT +E+ D ++   L WDF N  G  P+NA +
+Sbjct  236  ATTPEPGCFRIGFTKATFNQLNPTPEEKNDWIIT-DLVWDFANSQGKDPKNAAV  288
+
+
+> evm.model.pcontig_022.129
+Length=216
+
+ Score = 119 bits (299),  Expect = 7e-35, Method: Compositional matrix adjust.
+ Identities = 73/219 (33%), Positives = 114/219 (52%), Gaps = 17/219 (8%)
+
+Query  1    MKATTIAVFFALALPAVM---AKGHSGCYNYFMKKDGCVYSAADPRERCPQPRKHAQTNP  57
+            MKAT   +  AL+L  VM   A  +S CY++F++ D CV +AA+ ++RC     H +   
+Sbjct  1    MKATVTVLLAALSLSEVMTGAAATNSQCYDHFLRTDHCVVAAANEQQRCGANNHHGKLLE  60
+
+Query  58   AQKFVMNPGAAKGKRSKDSLERRYDTTRPSFAVGGGKGICGFY---NSTTELGVCLWSGP  114
+              + +      +    K SL RRYDTT P+         C      +S+ +   CLWSG 
+Sbjct  61   GVQLM----TMQTTTEKRSLVRRYDTTIPASTDAHVAFRCPIPKNPDSSWDNTACLWSGS  116
+
+Query  115  EQNNPTADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGF--DNKAYDPGCFD  172
+                  +   GW++   + NC K +++Q++    +VQY  +  GC F  +N     GCF+
+Sbjct  117  -----GSGKVGWVDQGFAKNCGKKIWIQKQGQKGTVQYARISGGCEFRPNNIDESVGCFN  171
+
+Query  173  IALTIKLFERFNPTADERRDGLLYGGLTWDFDNINGTHP  211
+            +A+  K+F+ FNPT +E+ +  L G L+WDF+N NG  P
+Sbjct  172  LAVNQKVFDGFNPTTEEKNNHRLKGILSWDFNNPNGKTP  210
+
+
+> evm.model.pcontig_040.45
+Length=231
+
+ Score = 92.8 bits (229),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 50/127 (39%), Positives = 67/127 (53%), Gaps = 7/127 (6%)
+
+Query  81   YDTTRPSFAVGGGKGICGFYNSTTELGVCLWSGPEQNNPTADTSGWINGLKSDNCRKGVY  140
+            + TT  S AV GG G+CG Y++   LGVCLWSG ++     + SGWI+G  + NC + V 
+Sbjct  106  FKTTEASEAVAGGDGVCGNYDTNVVLGVCLWSGIDETGKDPNKSGWISGSATTNCGREVE  165
+
+Query  141  VQRKNDPHSVQYVPVLDGCGFDNKAYDPGCFDIALTIKLFERFNPTA-DERRDGLLYGGL  199
+            V R + P       V+DGCG   KA+  GC ++ LT KL    +P A  E  D      L
+Sbjct  166  VWRASTPDKKITAKVVDGCGLKAKAFKVGCENLFLTKKLLTTLDPAAVGEISD------L  219
+
+Query  200  TWDFDNI  206
+             W F  +
+Sbjct  220  KWQFKKL  226
+
+
+> evm.model.pcontig_021.198
+Length=219
+
+ Score = 67.0 bits (162),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 56/180 (31%), Positives = 82/180 (46%), Gaps = 22/180 (12%)
+
+Query  43   RERCPQPRKHAQTNPAQKFVMNPGAAKGKRSKDS----LERRYDTTRPS-FAVGGG-KGI  96
+            R +C Q R     + A+  VM    +   +  D+    L+RR      +   +GGG   +
+Sbjct  39   RSQCSQWRAKGPPSTAKPPVMAKLMSAATQKPDAQTGGLQRRNTPPHQTGIEIGGGPSSV  98
+
+Query  97   C---GFYNSTTELGVCLWSGPEQNNPTADTS---GWINGLKSDNCRKGVYVQ-RKNDPHS  149
+            C   G YNSTT LG CLW+G  Q     DT    GW+N     NC + +++   K DP  
+Sbjct  99   CNPNGGYNSTTTLGTCLWTGERQYPAFTDTKYYMGWVNYDHPANCYRKLWLNPAKGDP--  156
+
+Query  150  VQYVPVLDGCGFDNK----AYDPGCFDIALTIKLFERFNPTADERRDGLLYGGLTWDFDN  205
+              Y PVLDGC F  K    + D GC  + +T  LF++      E    ++     +D++N
+Sbjct  157  -VYAPVLDGCAFAEKDQTISVDDGCATVWVTDLLFKKLG--GKEGDKTVIISSWDYDYNN  213
+
+
+> evm.model.pcontig_065.77
+Length=211
+
+ Score = 58.9 bits (141),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 59/218 (27%), Positives = 90/218 (41%), Gaps = 29/218 (13%)
+
+Query  1    MKATTIAVFFALALPAVMAKGHSGCYNYFMKKDGC-VYSAADPRERCPQPRKHAQTNPAQ  59
+            M +T +     L L A+ A        +  K+  C V+ A   +   P+P          
+Sbjct  1    MFSTKLITALTLVLLAINAAEAITHGKWPSKRSQCSVWRAKGNKPSTPKP--------IT  52
+
+Query  60   KFVMNPGAAKGKRSKDSLERRYDTTRP--SFAVGGGKGICGF---YNSTTELGVCLWSGP  114
+              +M+    K  +   SL RR    +   S        +C     Y+S   LGVCLW+G 
+Sbjct  53   AKLMSAAKEKLHQQAASLRRRNTPPKKLGSIVSSDTTSVCDHKHGYDSEKRLGVCLWTGE  112
+
+Query  115  EQNNPTADTS---GWINGLKSDNC-RKGVYVQRKNDPHSVQYVPVLDGCGFDNK----AY  166
+             Q    ++ +   GW+N    +NC RK   +  K DP    Y PV+DGC F  K    + 
+Sbjct  113  HQWPKYSNNTFYPGWLNYKHPENCDRKLWLIPGKGDP---VYAPVIDGCAFGTKDKPISV  169
+
+Query  167  DPGCFDIALTIKLFERFNPTADERRDGLLYGGLTWDFD  204
+            D GC  + +T  LF++     D+  D +     +WDF+
+Sbjct  170  DDGCATVWVTELLFKKLGGKKDD--DTVTIN--SWDFE  203
+
+
+> evm.model.pcontig_021.197
+Length=211
+
+ Score = 55.8 bits (133),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 57/215 (27%), Positives = 91/215 (42%), Gaps = 28/215 (13%)
+
+Query  2    KATTIAVFFALALPAVMAKGHSGCYNYFMKKDGC-VYSAADPRERCPQPRKHAQTNPAQK  60
+            K  T      LA+  V AK H        K+  C ++ A   +   P+P      + A +
+Sbjct  5    KLITALTLVLLAINVVDAKTHG---KKPTKRSQCSLWRAKGDKPSTPKPITAKVMSSADE  61
+
+Query  61   FVMNPGAAKGKRSKDSLERRYDTTRPSFAVGGGKGIC---GFYNSTTELGVCLWSGPEQN  117
+             +    A+  +R+     +  D        GG   +C     Y++  ++G CLW+G  Q 
+Sbjct  62   QLHTKSASLRRRNTPPNNKGMD------VAGGPHSVCDPVNGYDTNKQVGACLWTGQFQW  115
+
+Query  118  NPTADTS---GWINGLKSDNCRKGVYVQ-RKNDPHSVQYVPVLDGCGFDNK----AYDPG  169
+               ++++   GW+N    +NC + +Y+   K D  SV Y PVLDGC F  K    + D G
+Sbjct  116  PMYSNSTYYPGWVNDRNPENCYRKLYLNPAKGD--SV-YAPVLDGCAFGTKDKRISVDEG  172
+
+Query  170  CFDIALTIKLFERFNPTADERRDGLLYGGLTWDFD  204
+            C  I +T  LF +      E    +     +WDF+
+Sbjct  173  CASIWVTRALFIQLGGKPGEHNVTI----NSWDFE  203
+
+
+> evm.model.pcontig_049.139
+Length=200
+
+ Score = 53.5 bits (127),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 45/139 (32%), Positives = 68/139 (49%), Gaps = 16/139 (12%)
+
+Query  79   RRYDT--TRPSFAVGGG-KGICG--FYNSTTELGVCLWSGPEQNN--PTADTSGWINGLK  131
+            RR +T   R    +GGG    C    Y++    GVCLW+G +Q +  P+   +GW+NG  
+Sbjct  67   RRRNTPPNREGATIGGGPTSTCNDQGYDTYATDGVCLWNGDKQKDEVPSYLYAGWLNGGH  126
+
+Query  132  SDNCRKGVYVQRKNDPHSVQYVPVLDGCGF-DNKAYDPGCFDIALTIKLFERFNPT-ADE  189
+             +NC + ++V  K  P    +  V+DGC F +N   + GC  I +T  LF++      D+
+Sbjct  127  KENCYRQLWVLGKKLPKHKAW--VIDGCMFKENLDRNTGCATIWVTKMLFKKLGGLDGDD  184
+
+Query  190  RRDGLLYGGLTWDFDNING  208
+              D       +WDFD   G
+Sbjct  185  TVD-----IESWDFDGAWG  198
+
+
+> evm.model.pcontig_049.69
+Length=200
+
+ Score = 53.1 bits (126),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 31/87 (36%), Positives = 48/87 (55%), Gaps = 5/87 (6%)
+
+Query  100  YNSTTELGVCLWSGPEQNN--PTADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLD  157
+            Y++    GVCLW+G +Q +  P+   +GW+NG   +NC + ++V  K  P    +  V+D
+Sbjct  93   YDTYATDGVCLWNGDKQKDEVPSYLYAGWLNGGHKENCYRQLWVLGKKLPKHKAW--VVD  150
+
+Query  158  GCGFDNKA-YDPGCFDIALTIKLFERF  183
+            GC F  K   D GC  I +T  LF++ 
+Sbjct  151  GCMFKEKLDRDTGCATIWVTNMLFKKL  177
+
+
+> evm.model.pcontig_021.297
+Length=210
+
+ Score = 52.4 bits (124),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 30/93 (32%), Positives = 49/93 (53%), Gaps = 9/93 (10%)
+
+Query  98   GFYNSTTELGVCLWSGPEQNNPTADT---SGWINGLKSDNCRKGVYVQRKNDPHSVQYVP  154
+            G YN+ T+ G CLW+G  Q+ P   T   +GW+NG   +NC K + +++K+        P
+Sbjct  98   GAYNTNTQPGTCLWTGEAQSPPYTSTKFYAGWLNGDNQENCAKTIKLKQKSGKEV--DAP  155
+
+Query  155  VLDGCGFDNK----AYDPGCFDIALTIKLFERF  183
+            V+DGC F +     +   GC  + +T   F++ 
+Sbjct  156  VIDGCRFADDGTTISEAVGCSTVWVTDYTFKQL  188
+
+
+> evm.model.pcontig_006.13
+Length=189
+
+ Score = 47.4 bits (111),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 37/125 (30%), Positives = 50/125 (40%), Gaps = 10/125 (8%)
+
+Query  85   RPSFAVGGGKGICGFYNSTTELGVCLWSG--PEQNNPTADTSGWINGLKSDNCRKGVYVQ  142
+            RP+  +    GIC  Y + T  G CLW G  P    P   T GW+      NC K   ++
+Sbjct  61   RPTRELTADVGICETYTNITR-GGCLWIGDNPRTATPKGLTPGWLTDKDKSNCGKQFIIK  119
+
+Query  143  RKNDPHSVQYVPVLDGCGFDNK----AYDPGCFDIALTIKLFERFNPTADERRDGLLYGG  198
+            +    H      V+DGCGF +         GC  I +T  L+       D+ +D      
+Sbjct  120  QG---HKHVRGKVVDGCGFGDDGPKVTTGQGCSAIYVTKVLYAELGGNIDDPKDSGTVHI  176
+
+Query  199  LTWDF  203
+              WDF
+Sbjct  177  DAWDF  181
+
+
+> evm.model.pcontig_006.15
+Length=195
+
+ Score = 45.8 bits (107),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 29/94 (31%), Positives = 44/94 (47%), Gaps = 8/94 (9%)
+
+Query  93   GKGICGFYNSTTELGVCLWSGPEQNNP--TADTSGWINGLKSDNCRKGVYVQRKNDPHSV  150
+            G G CG   +  + G CLW+G  +  P  +  T GW+ G    NC+K +++ R       
+Sbjct  77   GLGSCGITYTDNDRGACLWNGLNRKEPRTSGTTQGWLTGDNPQNCKKDIFINRGKFRAVG  136
+
+Query  151  QYVPVLDGCGFDNK---AYDPGCFDIALTIKLFE  181
+            +   VLDGC F +        GC  I +T + F+
+Sbjct  137  K---VLDGCSFADGPPVTDVEGCSSIYVTKQTFK  167
+
+
+> evm.model.pcontig_181.9
+Length=188
+
+ Score = 40.8 bits (94),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 41/156 (26%), Positives = 58/156 (37%), Gaps = 17/156 (11%)
+
+Query  54   QTNPAQKFVMNPGAAKGKRSKDSLERRYDTTRPSFAVGGGKGICGFYNSTTELGVCLWSG  113
+            Q +  +  V+ P +  G  SK S        RP+  +    G+C  Y +TT  G CLW G
+Sbjct  38   QGHTLEVKVLKPHSWGGINSKGS-------GRPTRELSADVGVCETYTNTTR-GACLWIG  89
+
+Query  114  --PEQNNPTADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKA----YD  167
+                   P   T GW+      NC K   V+R       +   ++D C F          
+Sbjct  90   DNARTATPHGLTPGWLTDNDKSNCGKHFIVKRGQKHCGGR---IVDACSFVGDGAPLTTT  146
+
+Query  168  PGCFDIALTIKLFERFNPTADERRDGLLYGGLTWDF  203
+             GC  I +T  L+       D+  D       +WDF
+Sbjct  147  QGCSAIYVTKALYTELGGNVDDPNDVGSVQIDSWDF  182
+
+
+> evm.model.pcontig_037.200
+Length=188
+
+ Score = 40.8 bits (94),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 41/156 (26%), Positives = 58/156 (37%), Gaps = 17/156 (11%)
+
+Query  54   QTNPAQKFVMNPGAAKGKRSKDSLERRYDTTRPSFAVGGGKGICGFYNSTTELGVCLWSG  113
+            Q +  +  V+ P +  G  SK S        RP+  +    G+C  Y +TT  G CLW G
+Sbjct  38   QGHTLEVKVLKPHSWGGINSKGS-------GRPTRELSADVGVCETYTNTTR-GACLWIG  89
+
+Query  114  --PEQNNPTADTSGWINGLKSDNCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKA----YD  167
+                   P   T GW+      NC K   V+R       +   ++D C F          
+Sbjct  90   DNARTATPHGLTPGWLTDNDKSNCGKHFIVKRGQKHCGGR---IVDACSFVGDGAPLTTT  146
+
+Query  168  PGCFDIALTIKLFERFNPTADERRDGLLYGGLTWDF  203
+             GC  I +T  L+       D+  D       +WDF
+Sbjct  147  QGCSAIYVTKALYTELGGNVDDPNDVGSVQIDSWDF  182
+
+
+> evm.model.pcontig_006.278
+Length=191
+
+ Score = 35.8 bits (81),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 27/97 (28%), Positives = 35/97 (36%), Gaps = 10/97 (10%)
+
+Query  97   CGFYNSTTELGVCLWSGPEQNNPTADTS---GWINGLKSDNCRKGVYVQRKNDPHSVQYV  153
+            CG       +G CLW G        D S   GW+NG    NC K  +  R +        
+Sbjct  79   CGTTYGPKNMGGCLWGGANYLGDAPDKSLTLGWVNGSAKGNCGKKFFANRGDKRAEGT--  136
+
+Query  154  PVLDGCGFDNKA----YDPGCFDIALTIKLFERFNPT  186
+             V D C FD        + GC  + +T  L+     T
+Sbjct  137  -VYDTCSFDEGGRKLTIEQGCSTMYVTAALYNALGGT  172
+
+
+> evm.model.pcontig_046.98
+Length=253
+
+ Score = 28.5 bits (62),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 18/52 (35%), Positives = 23/52 (44%), Gaps = 4/52 (8%)
+
+Query  134  NCRKGVYVQRKNDPHSVQYVPVLDGCGFDNKAYDPGCFDIALTIKLFERFNP  185
+             C   V +Q  +DP     V ++D CG       PG   I LTI  FE+  P
+Sbjct  164  KCGAFVKIQYGSDPKKSILVRIVDSCG----GCAPGKPHIDLTIAAFEKLYP  211
+
+
+> evm.model.pcontig_036.95
+Length=450
+
+ Score = 26.9 bits (58),  Expect = 0.65, Method: Compositional matrix adjust.
+ Identities = 26/111 (23%), Positives = 46/111 (41%), Gaps = 18/111 (16%)
+
+Query  93   GKGICGFYNSTTELGVCLWSGPEQNNPTADTSGWINGLKSDNCRKGVYVQRKNDPHSVQY  152
+            G G CG  N++ ++ V +      + P+   +   N +    C K +    K     +  
+Sbjct  356  GMGACGLTNNSGDMIVAVSKLLYDSFPSERGNPNTNKV----CGKRIRATYKGKSCDLTV  411
+
+Query  153  VPVLDGCGFDNKAYDPGCFDIALTIKLFERFNPTADERRDGLLYGGLTWDF  203
+            V   +GC  D         D+ +TI  FE+       + +G L+ G+TW+F
+Sbjct  412  VDRCEGCLHD---------DLDMTITAFEKLGS----KEEGRLH-GMTWNF  448
+
+
+> evm.model.pcontig_012.2
+Length=465
+
+ Score = 24.6 bits (52),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 21/41 (51%), Gaps = 3/41 (7%)
+
+Query  120  TADTSGWINGLKSDNCRKGVYV---QRKNDPHSVQYVPVLD  157
+            T   S WI+GLK D      +V   ++K +P S ++V   D
+Sbjct  165  TRTQSTWIDGLKIDTLSVTPHVLSIRKKMNPMSAKFVTSAD  205
+
+
+> evm.model.pcontig_029.12
+Length=465
+
+ Score = 24.3 bits (51),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 21/41 (51%), Gaps = 3/41 (7%)
+
+Query  120  TADTSGWINGLKSDNCRKGVYV---QRKNDPHSVQYVPVLD  157
+            T   S WI+GLK D      +V   ++K +P S ++V   D
+Sbjct  165  TRTQSTWIDGLKIDTLSVTPHVLSIRKKMNPMSAKFVTSAD  205
+
+
+> evm.model.pcontig_050.164
+Length=465
+
+ Score = 24.3 bits (51),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 21/41 (51%), Gaps = 3/41 (7%)
+
+Query  120  TADTSGWINGLKSDNCRKGVYV---QRKNDPHSVQYVPVLD  157
+            T   S WI+GLK D      +V   ++K +P S ++V   D
+Sbjct  165  TRTQSTWIDGLKIDTLSVTPHVLSIRKKMNPMSAKFVTSAD  205
+
+
+> evm.model.pcontig_055.66
+Length=726
+
+ Score = 24.3 bits (51),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 9/22 (41%), Positives = 14/22 (64%), Gaps = 0/22 (0%)
+
+Query  62  VMNPGAAKGKRSKDSLERRYDT  83
+           V NPG   GK  +D +++ YD+
+Sbjct  46  VPNPGKLNGKALRDLIQKNYDS  67
+
+
+> evm.model.pcontig_026.94
+Length=530
+
+ Score = 24.3 bits (51),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 32/128 (25%), Positives = 50/128 (39%), Gaps = 21/128 (16%)
+
+Query  51   KHAQTNPAQKFVMNP--GAAKGKRSKDSLERRYDT---TRPSFAVGGGK-----GICGFY  100
+            + +Q NP  +F  NP  G   G      +E++Y T     P     G K     G+    
+Sbjct  90   RSSQLNPPVRFTQNPQDGPQSGH-----IEKKYGTLPRALPRVTPAGFKRKRPDGLSRAR  144
+
+Query  101  NSTTELGVCLWSGPEQNNPTADTSGWINGLKSD---NCRKGVYVQRKNDPHSVQYVPVLD  157
+             S+++L     S P +   TA     + G   +   N  +    +R  DP  ++   +LD
+Sbjct  145  ISSSQLRSSAVSSPLEAETTAHRGFRLFGFPIEIEGNTERIKGSERIKDPDEIKTALILD  204
+
+Query  158  GCGFDNKA  165
+            G    NKA
+Sbjct  205  GT---NKA  209
+
+
+> evm.model.pcontig_042.188
+Length=141
+
+ Score = 23.1 bits (48),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 14/30 (47%), Gaps = 0/30 (0%)
+
+Query  108  VCLWSGPEQNNPTADTSGWINGLKSDNCRK  137
+            V LW G     PT D S W   ++ D  +K
+Sbjct  57   VSLWYGFSLLYPTTDASCWKTCVQMDTQKK  86
+
+
+> evm.model.pcontig_012.122
+Length=87
+
+ Score = 22.3 bits (46),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 7/20 (35%), Positives = 16/20 (80%), Gaps = 0/20 (0%)
+
+Query  1   MKATTIAVFFALALPAVMAK  20
+           +  +T++VFFA++  +VM++
+Sbjct  3   INKSTLSVFFAVSCESVMSE  22
+
+
+> evm.model.pcontig_037.107
+Length=94
+
+ Score = 22.3 bits (46),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 10/19 (53%), Positives = 10/19 (53%), Gaps = 0/19 (0%)
+
+Query  38  SAADPRERCPQPRKHAQTN  56
+           S  DPR R   PR H Q N
+Sbjct  56  STKDPRRRYCCPRNHLQEN  74
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 83513080
+
+
+Query= PCASD_03307
+
+Length=198
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  evm.model.pcontig_049.139                                           154     6e-49
+  evm.model.pcontig_049.69                                            151     1e-47
+  evm.model.pcontig_065.77                                            144     8e-45
+  evm.model.pcontig_021.197                                           141     2e-43
+  evm.model.pcontig_021.198                                           127     4e-38
+  evm.model.pcontig_021.297                                           100     2e-27
+  evm.model.pcontig_006.15                                            82.8    5e-21
+  evm.model.pcontig_042.130                                           71.6    1e-16
+  evm.model.pcontig_006.13                                            70.1    2e-16
+  evm.model.pcontig_002.92                                            68.9    1e-15
+  evm.model.pcontig_002.95                                            68.9    1e-15
+  evm.model.pcontig_021.222                                           68.2    2e-15
+  evm.model.pcontig_046.113                                           67.0    5e-15
+  evm.model.pcontig_022.106                                           66.6    8e-15
+  evm.model.pcontig_033.158                                           67.4    1e-14
+  evm.model.pcontig_006.278                                           63.5    8e-14
+  evm.model.pcontig_042.129                                           63.2    2e-13
+  evm.model.pcontig_181.9                                             62.0    3e-13
+  evm.model.pcontig_037.200                                           62.0    3e-13
+  evm.model.pcontig_022.153                                           58.5    6e-12
+  evm.model.pcontig_021.259                                           58.5    8e-12
+  evm.model.pcontig_040.45                                            58.5    9e-12
+  evm.model.pcontig_020.303                                           56.2    5e-11
+  evm.model.pcontig_022.143                                           53.9    3e-10
+  evm.model.pcontig_022.129                                           43.5    1e-06
+  evm.model.pcontig_031.180                                           25.8    1.5  
+  evm.model.pcontig_019.64                                            24.6    3.9  
+  evm.model.pcontig_005.402                                           24.3    4.7  
+  evm.model.pcontig_049.37                                            23.9    5.5  
+  evm.model.pcontig_027.211                                           23.1    6.7  
+  evm.model.pcontig_006.462                                           23.5    8.8  
+  evm.model.pcontig_020.221                                           23.1    9.3  
+
+
+> evm.model.pcontig_049.139
+Length=200
+
+ Score = 154 bits (390),  Expect = 6e-49, Method: Compositional matrix adjust.
+ Identities = 89/202 (44%), Positives = 117/202 (58%), Gaps = 18/202 (9%)
+
+Query  1    MFSTKYLIAALTLAFLSIDAINAVESMHSQCHRWAQ----GGKSVSSSRPLVAKMIPAEK  56
+            MFS+K LI ALTL  LSI   NAV SM SQC  WA     G  S  + +P+VAK++ AE 
+Sbjct  1    MFSSKQLITALTLVVLSI---NAVASMRSQCSEWAHPPNGGVSSSQTKKPIVAKLMSAEN  57
+
+Query  57   E-----KRLYRRLTP-TQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQLQDPTKPG  110
+            E     + + RR TP  + G  + GG  S C+  GYDT    GVCLWNG     D  K  
+Sbjct  58   EAAHQARSIRRRNTPPNREGATIGGGPTSTCNDQGYDTYATDGVCLWNG-----DKQKDE  112
+
+Query  111  LPVDTYPGWLSGGNTQNCGRKVYINAPYRNTTYAPVLDGCKFGNNLAEEDGCSTIWLTKI  170
+            +P   Y GWL+GG+ +NC R++++         A V+DGC F  NL    GC+TIW+TK+
+Sbjct  113  VPSYLYAGWLNGGHKENCYRQLWVLGKKLPKHKAWVIDGCMFKENLDRNTGCATIWVTKM  172
+
+Query  171  LFRDLGGDEDKGSMYINNWDFD  192
+            LF+ LGG +   ++ I +WDFD
+Sbjct  173  LFKKLGGLDGDDTVDIESWDFD  194
+
+
+> evm.model.pcontig_049.69
+Length=200
+
+ Score = 151 bits (382),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 92/204 (45%), Positives = 122/204 (60%), Gaps = 22/204 (11%)
+
+Query  1    MFSTKYLIAALTLAFLSIDAINAVESMHSQCHRWAQ---GGKSVSSSR-PLVAKMIPAEK  56
+            MFS+K LI ALTL FLSI   NAV SM SQC  WA    GG S S ++ P+VAK++ AE 
+Sbjct  1    MFSSKQLITALTLVFLSI---NAVASMRSQCSEWAHPPNGGLSSSQTKKPIVAKLMSAEN  57
+
+Query  57   E-----KRLYRRLTPTQPGKE--VVGGKP-SACSKDGYDTEKNHGVCLWNGVSQLQDPTK  108
+            E     + + RR TP  PG+E   +GG P S C+  GYDT    GVCLWNG     D  K
+Sbjct  58   EAAHQARSIRRRNTP--PGREGATIGGGPTSTCNDQGYDTYATDGVCLWNG-----DKQK  110
+
+Query  109  PGLPVDTYPGWLSGGNTQNCGRKVYINAPYRNTTYAPVLDGCKFGNNLAEEDGCSTIWLT  168
+              +P   Y GWL+GG+ +NC R++++         A V+DGC F   L  + GC+TIW+T
+Sbjct  111  DEVPSYLYAGWLNGGHKENCYRQLWVLGKKLPKHKAWVVDGCMFKEKLDRDTGCATIWVT  170
+
+Query  169  KILFRDLGGDEDKGSMYINNWDFD  192
+             +LF+ LGG     ++ I++WDF+
+Sbjct  171  NMLFKKLGGLPGDETVEIDSWDFN  194
+
+
+> evm.model.pcontig_065.77
+Length=211
+
+ Score = 144 bits (364),  Expect = 8e-45, Method: Compositional matrix adjust.
+ Identities = 88/209 (42%), Positives = 121/209 (58%), Gaps = 23/209 (11%)
+
+Query  1    MFSTKYLIAALTLAFLSIDAINAVE-----SMHSQCHRWAQGGKSVSSSRPLVAKMIPAE  55
+            MFSTK LI ALTL  L+I+A  A+      S  SQC  W   G   S+ +P+ AK++ A 
+Sbjct  1    MFSTK-LITALTLVLLAINAAEAITHGKWPSKRSQCSVWRAKGNKPSTPKPITAKLMSAA  59
+
+Query  56   KEK------RLYRRLTPTQP-GKEVVGGKPSACS-KDGYDTEKNHGVCLWNGVSQLQDPT  107
+            KEK       L RR TP +  G  V     S C  K GYD+EK  GVCLW G  Q     
+Sbjct  60   KEKLHQQAASLRRRNTPPKKLGSIVSSDTTSVCDHKHGYDSEKRLGVCLWTGEHQW----  115
+
+Query  108  KPGLPVDT-YPGWLSGGNTQNCGRKVYINAPYRNTTYAPVLDGCKFGNN---LAEEDGCS  163
+             P    +T YPGWL+  + +NC RK+++     +  YAPV+DGC FG     ++ +DGC+
+Sbjct  116  -PKYSNNTFYPGWLNYKHPENCDRKLWLIPGKGDPVYAPVIDGCAFGTKDKPISVDDGCA  174
+
+Query  164  TIWLTKILFRDLGGDEDKGSMYINNWDFD  192
+            T+W+T++LF+ LGG +D  ++ IN+WDF+
+Sbjct  175  TVWVTELLFKKLGGKKDDDTVTINSWDFE  203
+
+
+> evm.model.pcontig_021.197
+Length=211
+
+ Score = 141 bits (355),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 85/209 (41%), Positives = 119/209 (57%), Gaps = 21/209 (10%)
+
+Query  1    MFSTKYLIAALTLAFLSIDAINAVE-----SMHSQCHRWAQGGKSVSSSRPLVAKMIPAE  55
+            MFSTK LI ALTL  L+I+ ++A       +  SQC  W   G   S+ +P+ AK++ + 
+Sbjct  1    MFSTK-LITALTLVLLAINVVDAKTHGKKPTKRSQCSLWRAKGDKPSTPKPITAKVMSSA  59
+
+Query  56   KEK------RLYRRLTP-TQPGKEVVGGKPSACSK-DGYDTEKNHGVCLWNGVSQLQDPT  107
+             E+       L RR TP    G +V GG  S C   +GYDT K  G CLW G  Q Q P 
+Sbjct  60   DEQLHTKSASLRRRNTPPNNKGMDVAGGPHSVCDPVNGYDTNKQVGACLWTG--QFQWPM  117
+
+Query  108  KPGLPVDTYPGWLSGGNTQNCGRKVYINAPYRNTTYAPVLDGCKFGNN---LAEEDGCST  164
+                    YPGW++  N +NC RK+Y+N    ++ YAPVLDGC FG     ++ ++GC++
+Sbjct  118  YSN--STYYPGWVNDRNPENCYRKLYLNPAKGDSVYAPVLDGCAFGTKDKRISVDEGCAS  175
+
+Query  165  IWLTKILFRDLGGDEDKGSMYINNWDFDQ  193
+            IW+T+ LF  LGG   + ++ IN+WDF+Q
+Sbjct  176  IWVTRALFIQLGGKPGEHNVTINSWDFEQ  204
+
+
+> evm.model.pcontig_021.198
+Length=219
+
+ Score = 127 bits (320),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 77/218 (35%), Positives = 117/218 (54%), Gaps = 28/218 (13%)
+
+Query  1    MFSTKYLIAALTLAFLSIDAINA------------VESMHSQCHRWAQGGKSVSSSRPLV  48
+            MFS K+ I AL L F++I+ ++A             + M SQC +W   G   ++  P++
+Sbjct  1    MFSGKF-ITALVLVFIAINVVDAKHKAPTSPKTKDPKGMRSQCSQWRAKGPPSTAKPPVM  59
+
+Query  49   AKMIPAEKEKR------LYRRLTPT-QPGKEVVGGKPSACSKDG-YDTEKNHGVCLWNGV  100
+            AK++ A  +K       L RR TP  Q G E+ GG  S C+ +G Y++    G CLW G 
+Sbjct  60   AKLMSAATQKPDAQTGGLQRRNTPPHQTGIEIGGGPSSVCNPNGGYNSTTTLGTCLWTGE  119
+
+Query  101  SQLQDPTKPGLPVDTYPGWLSGGNTQNCGRKVYINAPYRNTTYAPVLDGCKFG---NNLA  157
+             Q    T        Y GW++  +  NC RK+++N    +  YAPVLDGC F      ++
+Sbjct  120  RQYPAFTD----TKYYMGWVNYDHPANCYRKLWLNPAKGDPVYAPVLDGCAFAEKDQTIS  175
+
+Query  158  EEDGCSTIWLTKILFRDLGGDEDKGSMYINNWDFDQEN  195
+             +DGC+T+W+T +LF+ LGG E   ++ I++WD+D  N
+Sbjct  176  VDDGCATVWVTDLLFKKLGGKEGDKTVIISSWDYDYNN  213
+
+
+> evm.model.pcontig_021.297
+Length=210
+
+ Score = 100 bits (248),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 70/209 (33%), Positives = 103/209 (49%), Gaps = 23/209 (11%)
+
+Query  1    MFSTKYLIAALTLAFLSIDAINAVES--MHSQCHRWAQGGK----SVSSSRPLVAKMIPA  54
+            MFS K+ I  LTLAFL+I+A+ A  +    SQC +W    K    S   S  ++A+++ +
+Sbjct  1    MFSAKF-ITILTLAFLAINAVAAATAPVKRSQCAQWKLKNKHPMGSSDDSPMIIARVMTS  59
+
+Query  55   EKEKRLYR---------RLTPTQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQLQD  105
+            +  K+  +            P   GK+      SAC    Y+T    G CLW G +Q   
+Sbjct  60   KNSKQTLQTRANKTPPPITPPGGTGKDFGSDSESACPSGAYNTNTQPGTCLWTGEAQ---  116
+
+Query  106  PTKPGLPVDTYPGWLSGGNTQNCGRKVYINAPYRNTTYAPVLDGCKF---GNNLAEEDGC  162
+             + P      Y GWL+G N +NC + + +         APV+DGC+F   G  ++E  GC
+Sbjct  117  -SPPYTSTKFYAGWLNGDNQENCAKTIKLKQKSGKEVDAPVIDGCRFADDGTTISEAVGC  175
+
+Query  163  STIWLTKILFRDLGGDEDKGSMYINNWDF  191
+            ST+W+T   F+ LGG     ++ I NWDF
+Sbjct  176  STVWVTDYTFKQLGGKPGTHTVEIANWDF  204
+
+
+> evm.model.pcontig_006.15
+Length=195
+
+ Score = 82.8 bits (203),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 45/107 (42%), Positives = 67/107 (63%), Gaps = 10/107 (9%)
+
+Query  88   TEKNHGVCLWNGVSQLQDPTKPGLPVDTYPGWLSGGNTQNCGRKVYIN-APYRNTTYAPV  146
+            T+ + G CLWNG+++ ++P   G    T  GWL+G N QNC + ++IN   +R      V
+Sbjct  86   TDNDRGACLWNGLNR-KEPRTSG----TTQGWLTGDNPQNCKKDIFINRGKFR--AVGKV  138
+
+Query  147  LDGCKF--GNNLAEEDGCSTIWLTKILFRDLGGDEDKGSMYINNWDF  191
+            LDGC F  G  + + +GCS+I++TK  F+DLGGD   G + I++WDF
+Sbjct  139  LDGCSFADGPPVTDVEGCSSIYVTKQTFKDLGGDPAVGRIEIDDWDF  185
+
+
+> evm.model.pcontig_042.130
+Length=211
+
+ Score = 71.6 bits (174),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 58/165 (35%), Positives = 79/165 (48%), Gaps = 26/165 (16%)
+
+Query  45   RPLVAKMIPAEK-EKRLYRRLTPTQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQL  103
+            +P+ A ++   K + RL RR   T     ++   P  C +  Y+TEK  GVCLW+G  Q+
+Sbjct  55   KPVTAFVMQTPKPQSRLERRYN-TNGDTILMSSGPGICGE--YNTEKEDGVCLWSGPEQV  111
+
+Query  104  QDPTKPGLPVDTYPGWLSGGNTQNCGRKVYI------NAPYRNTTYAPVLDGCKFGNNLA  157
+                    P     GWL+G  T NC ++VYI      + P+    Y PVLDGC F     
+Sbjct  112  H-------PTINSAGWLNGVKTSNCRKQVYIQRHDEPDKPF----YVPVLDGCGFHKTKP  160
+
+Query  158  EEDGCSTIWLTKILFRDL---GGDEDKGSMYIN-NWDFDQENGSN  198
+            EE GC  I +TK L R L     + D   +Y    WDF+   G+N
+Sbjct  161  EE-GCFEIGVTKSLARKLRRFPNETDDTPLYGGFTWDFNNLLGNN  204
+
+
+> evm.model.pcontig_006.13
+Length=189
+
+ Score = 70.1 bits (170),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 39/115 (34%), Positives = 63/115 (55%), Gaps = 13/115 (11%)
+
+Query  88   TEKNHGVCLWNGVSQLQDPTKPGLPVDTYPGWLSGGNTQNCGRKVYINAPYRNTTYAPVL  147
+            T    G CLW G     D  +   P    PGWL+  +  NCG++  I   +++     V+
+Sbjct  77   TNITRGGCLWIG-----DNPRTATPKGLTPGWLTDKDKSNCGKQFIIKQGHKHV-RGKVV  130
+
+Query  148  DGCKFGNN---LAEEDGCSTIWLTKILFRDLGGD----EDKGSMYINNWDFDQEN  195
+            DGC FG++   +    GCS I++TK+L+ +LGG+    +D G+++I+ WDF  +N
+Sbjct  131  DGCGFGDDGPKVTTGQGCSAIYVTKVLYAELGGNIDDPKDSGTVHIDAWDFAAKN  185
+
+
+> evm.model.pcontig_002.92
+Length=215
+
+ Score = 68.9 bits (167),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 57/149 (38%), Positives = 73/149 (49%), Gaps = 21/149 (14%)
+
+Query  54   AEKEKR----LYRRLTPTQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQLQDPTKP  109
+            A K KR    L RR    +P    VGG    C    Y++    GVCLWNG  Q  +PT  
+Sbjct  65   ASKAKRSVADLERRYVTPKP-SFAVGGGTGTCGF--YNSTTEAGVCLWNGAEQ-NNPT--  118
+
+Query  110  GLPVDTYPGWLSGGNTQNCGRKVYINAPYRNTT--YAPVLDGCKFGNNLAEEDGCSTIWL  167
+               +DT  GWL+G  T NCG+++YI    +  T  Y  VLDGC FG   + + GCS + L
+Sbjct  119  ---IDT-AGWLNGAKTSNCGKRIYIQRTGKPETRQYVKVLDGCYFGAT-SPKPGCSEVGL  173
+
+Query  168  TKILFRDLGGDEDK---GSMYIN-NWDFD  192
+            T  LF      E +   G +Y   +W FD
+Sbjct  174  TIQLFNLFKPTEKENQDGLIYGGLSWQFD  202
+
+
+> evm.model.pcontig_002.95
+Length=216
+
+ Score = 68.9 bits (167),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 53/139 (38%), Positives = 70/139 (50%), Gaps = 17/139 (12%)
+
+Query  60   LYRRLTPTQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQLQDPTKPGLPVDTYPGW  119
+            L RR   T+P   V GG    C    Y++    GVCLW+G  Q ++PT     V+T  GW
+Sbjct  76   LERRYDTTRPSFAVAGGT-GICGD--YNSTAELGVCLWSGAEQ-KNPT-----VET-AGW  125
+
+Query  120  LSGGNTQNCGRKVYINAPYRNTT--YAPVLDGCKFGNNLAEEDGCSTIWLTKILFRDLGG  177
+            L+G  T NCG+++YI    +  T  +  VLDGC FG   + + GC  I LT  LF     
+Sbjct  126  LNGAKTSNCGKRIYIQRKGQPDTVKFVKVLDGCSFGAT-SPDPGCFDIALTLKLFELFNP  184
+
+Query  178  DEDK---GSMYIN-NWDFD  192
+             E +   G +Y    WDFD
+Sbjct  185  TEQEQNDGVLYGGITWDFD  203
+
+
+> evm.model.pcontig_021.222
+Length=215
+
+ Score = 68.2 bits (165),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 56/182 (31%), Positives = 89/182 (49%), Gaps = 32/182 (18%)
+
+Query  25   ESMHSQCHRWAQGGKSVSSSRPLVAKMIPAEKEKRLYRRLTPTQPGKEVVGGKPSACSKD  84
+            ++ H + +++  G ++     PLV         KR   +L P Q G+  +GG    C K 
+Sbjct  51   KTTHDRPYKF-NGPQAAPKQSPLV---------KRYDTKLPPYQIGR--IGGIGPVCKK-  97
+
+Query  85   GYDTEKNHGVCLWNGVSQLQDPTKPGLPVDTYPGWLSGGNTQNCGRKVYI--NAPYRNTT  142
+             YD+ ++  VCLWNG       +K   P  +  GWL+   T NCG++VY+       NT 
+Sbjct  98   -YDSNRDLAVCLWNGPD-----SKKHTPESS--GWLNEAKTSNCGKRVYVMRKTDVGNTQ  149
+
+Query  143  YAPVLDGCKFGNNLAEEDGCSTIWLTKILFRDLGG---DEDKGSMYINN---WDFDQENG  196
+            +A +++GC F        GC+ I L+  LFR L     +ED+G  ++N    WD+D  +G
+Sbjct  150  FAQIVEGCDFPTK-NFTIGCAQIGLSNALFRALKATPQEEDQG--FLNTPLIWDYDSFSG  206
+
+Query  197  SN  198
+             +
+Sbjct  207  QH  208
+
+
+> evm.model.pcontig_046.113
+Length=217
+
+ Score = 67.0 bits (162),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 55/147 (37%), Positives = 70/147 (48%), Gaps = 19/147 (13%)
+
+Query  57   EKRLYRRLTPTQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQLQDPTKPGLPVDTY  116
+            E  L RR T   P   +  G+   C    Y++    GVCLW+G S+ ++PT         
+Sbjct  74   ENELERRYTTVTPSFSISDGE-GICGH--YNSTTTAGVCLWSG-SEQENPTLES------  123
+
+Query  117  PGWLSGGNTQNCGRKVYINAPYRNTT--YAPVLDGCKFGN-NLAEEDGCSTIWLTKILFR  173
+             GWL+G  T NCG++VYI       T  YAPVLDGC F   +LAE  GC  I +T  LF 
+Sbjct  124  AGWLNGVKTSNCGKRVYIQRKGHPETVKYAPVLDGCCFDTKSLAE--GCFDIAVTIKLFN  181
+
+Query  174  DLG--GDEDKGSMYINN--WDFDQENG  196
+            +      E +  M      WDFD   G
+Sbjct  182  EFNPTQKEIESGMLEGGLIWDFDSLYG  208
+
+
+> evm.model.pcontig_022.106
+Length=216
+
+ Score = 66.6 bits (161),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 50/155 (32%), Positives = 69/155 (45%), Gaps = 17/155 (11%)
+
+Query  50   KMIPAEKEKRLYRRLTPTQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQLQDPTKP  109
+            K++   +   L RR         V GGK   C    Y++  + GVCLW+G  Q       
+Sbjct  66   KVVKRSERHSLGRRYDDNDGSFAVAGGK-GICGT--YNSTTDLGVCLWSGAEQKS-----  117
+
+Query  110  GLPVDTYPGWLSGGNTQNCGRKVYIN--APYRNTTYAPVLDGCKFGNNLAEEDGCSTIWL  167
+              P     GWL+G  T NCG++VY+      +   Y  VLDGC F +  A   GC  I L
+Sbjct  118  --PTVESAGWLNGLKTSNCGKQVYVQRKGQPKTVKYVKVLDGCSF-DTTALSTGCFQIAL  174
+
+Query  168  TKILFRDLG--GDEDKGSMYIN--NWDFDQENGSN  198
+            T  LF +      E K  + ++  +WDF+   G N
+Sbjct  175  TSKLFDEFNPTAKEKKDGLILDGISWDFNNLLGQN  209
+
+
+> evm.model.pcontig_033.158
+Length=289
+
+ Score = 67.4 bits (163),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 55/152 (36%), Positives = 67/152 (44%), Gaps = 19/152 (13%)
+
+Query  52   IPAEKEKRLYRRLTPTQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQLQDPTKPGL  111
+            I A   KRL RR         + GG    C   G  T+   GVCLW   S+L    K G 
+Sbjct  145  ITAPSSKRLVRRYDSELDSFAIAGGD-GIC---GTYTDDQPGVCLW--ASELDTGAKSG-  197
+
+Query  112  PVDTYPGWLSGGNTQNCGRKVYIN--APYRNTTYAPVLDGCKFGNNLAEEDGCSTIWLTK  169
+                  GW++G  T+ CGR V+I       NT YAP++DGC F N    E GC  I  TK
+Sbjct  198  ------GWMNGTYTKACGRVVFIQRKGDPDNTIYAPIVDGCSF-NATTPEPGCFRIGFTK  250
+
+Query  170  ILFRDLG-GDEDKGSMYINN--WDFDQENGSN  198
+              F  L    E+K    I +  WDF    G +
+Sbjct  251  ATFNQLNPTPEEKNDWIITDLVWDFANSQGKD  282
+
+
+> evm.model.pcontig_006.278
+Length=191
+
+ Score = 63.5 bits (153),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 39/109 (36%), Positives = 54/109 (50%), Gaps = 10/109 (9%)
+
+Query  90   KNHGVCLWNGVSQLQDPTKPGLPVDTYPGWLSGGNTQNCGRKVYINAPYRNTTYAPVLDG  149
+            KN G CLW G + L D     L +    GW++G    NCG+K + N   +      V D 
+Sbjct  86   KNMGGCLWGGANYLGDAPDKSLTL----GWVNGSAKGNCGKKFFANRGDKRAE-GTVYDT  140
+
+Query  150  CKF---GNNLAEEDGCSTIWLTKILFRDLGGDEDKGSMYINNWDFDQEN  195
+            C F   G  L  E GCST+++T  L+  LGG    G + I++WDF  + 
+Sbjct  141  CSFDEGGRKLTIEQGCSTMYVTAALYNALGG--TGGRIIIDDWDFKADT  187
+
+
+> evm.model.pcontig_042.129
+Length=251
+
+ Score = 63.2 bits (152),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 45/121 (37%), Positives = 58/121 (48%), Gaps = 14/121 (12%)
+
+Query  84   DGYDTEKNHGVCLWNGVSQLQDPTKPGLPVDTYPGWLSGGNTQNCGRKVYINA--PYRNT  141
+            D YDT K  GVCLW+G        K      +  GW++     NCG+KVYI       + 
+Sbjct  132  DPYDTTKVDGVCLWSG-------PKDSKATFSNAGWVNSRKDSNCGKKVYIQRRDDPDHV  184
+
+Query  142  TYAPVLDGCKFGNNLAEEDGCSTIWLTKILFRDL---GGDEDKGSMYIN-NWDFDQENGS  197
+             Y PVLDGC F N +  EDGC  I +T  L + +     + D   +Y    WDF   +GS
+Sbjct  185  HYVPVLDGCPF-NAVTPEDGCFEIGVTVALAKKMQKFANETDSAELYGGFTWDFLNGDGS  243
+
+Query  198  N  198
+            N
+Sbjct  244  N  244
+
+
+> evm.model.pcontig_181.9
+Length=188
+
+ Score = 62.0 bits (149),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 37/111 (33%), Positives = 54/111 (49%), Gaps = 13/111 (12%)
+
+Query  88   TEKNHGVCLWNGVSQLQDPTKPGLPVDTYPGWLSGGNTQNCGRKVYINAPYRNTTYAPVL  147
+            T    G CLW G     D  +   P    PGWL+  +  NCG+   +    ++     ++
+Sbjct  78   TNTTRGACLWIG-----DNARTATPHGLTPGWLTDNDKSNCGKHFIVKRGQKHCG-GRIV  131
+
+Query  148  DGCKF---GNNLAEEDGCSTIWLTKILFRDLGGD----EDKGSMYINNWDF  191
+            D C F   G  L    GCS I++TK L+ +LGG+     D GS+ I++WDF
+Sbjct  132  DACSFVGDGAPLTTTQGCSAIYVTKALYTELGGNVDDPNDVGSVQIDSWDF  182
+
+
+> evm.model.pcontig_037.200
+Length=188
+
+ Score = 62.0 bits (149),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 37/111 (33%), Positives = 54/111 (49%), Gaps = 13/111 (12%)
+
+Query  88   TEKNHGVCLWNGVSQLQDPTKPGLPVDTYPGWLSGGNTQNCGRKVYINAPYRNTTYAPVL  147
+            T    G CLW G     D  +   P    PGWL+  +  NCG+   +    ++     ++
+Sbjct  78   TNTTRGACLWIG-----DNARTATPHGLTPGWLTDNDKSNCGKHFIVKRGQKHCG-GRIV  131
+
+Query  148  DGCKF---GNNLAEEDGCSTIWLTKILFRDLGGD----EDKGSMYINNWDF  191
+            D C F   G  L    GCS I++TK L+ +LGG+     D GS+ I++WDF
+Sbjct  132  DACSFVGDGAPLTTTQGCSAIYVTKALYTELGGNVDDPNDVGSVQIDSWDF  182
+
+
+> evm.model.pcontig_022.153
+Length=216
+
+ Score = 58.5 bits (140),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 48/148 (32%), Positives = 63/148 (43%), Gaps = 17/148 (11%)
+
+Query  55   EKEKRLYRRLTPTQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQLQDPTKPGLPVD  114
+              +  L RR     P   V GG    C    YD+    GVCLW+G  Q         P  
+Sbjct  71   RSDNELERRYDSRNPSFAVAGGT-GICGF--YDSVNTPGVCLWSGAEQNN-------PTV  120
+
+Query  115  TYPGWLSGGNTQNCGRKVYINAPYRNTT--YAPVLDGCKFGNNLAEEDGCSTIWLTKILF  172
+            +  GWL+G  T NCG++VY+    +  T  Y  VLDGC  G+  A   GC  + +T  LF
+Sbjct  121  STAGWLNGFKTSNCGKRVYVQRTGQPNTRQYVKVLDGCGLGDT-APIPGCLDLAVTLKLF  179
+
+Query  173  RDLGGD--EDKGSMYIN--NWDFDQENG  196
+                    E++    I    W+FD   G
+Sbjct  180  NLFNPTEAENQAGKIIGGLTWEFDNVYG  207
+
+
+> evm.model.pcontig_021.259
+Length=215
+
+ Score = 58.5 bits (140),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 54/190 (28%), Positives = 80/190 (42%), Gaps = 20/190 (11%)
+
+Query  15   FLSID-AINAVESMHSQCHRWAQGGKSVSSSRPLVAKMIPAEKEKRLYRRLTPTQPGKEV  73
+            FL  D  + A  S +++C    +   +      LV++         L RR    +P   +
+Sbjct  29   FLKKDGCVFASASNNTRCKAPPKHNPTPVKQFALVSQNTKRSGHHHLERRYNTQEPVFPI  88
+
+Query  74   VGGKPSACSKDGYDTEKNHGVCLWNGVSQLQDPTKPGLPVDTYPGWLSGGNTQNCGRKVY  133
+             GG    C    Y +    GVC+W+G  Q         P     GW++   T NCG+++Y
+Sbjct  89   -GGGTGNCGL--YTSTDEIGVCVWSGAEQSN-------PTAETAGWVNSLKTSNCGKRIY  138
+
+Query  134  INAPYRNTT--YAPVLDGCKFGNNLAEED-GCSTIWLTKILFRDLG-GDEDKGSMYIN--  187
+            ++   +  T  YA VLDGC F  N  E D GC+ I L+  LF      D++     +   
+Sbjct  139  VHRTGKPETVQYAKVLDGCSF--NTTELDIGCTQIGLSIKLFAKFNPSDKETADQLLYGG  196
+
+Query  188  -NWDFDQENG  196
+              WDFD   G
+Sbjct  197  LTWDFDNLYG  206
+
+
+> evm.model.pcontig_040.45
+Length=231
+
+ Score = 58.5 bits (140),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 42/113 (37%), Positives = 55/113 (49%), Gaps = 16/113 (14%)
+
+Query  67   TQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQL-QDPTKPGLPVDTYPGWLSGGNT  125
+            T    E V G    C    YDT    GVCLW+G+ +  +DP K G        W+SG  T
+Sbjct  108  TTEASEAVAGGDGVCGN--YDTNVVLGVCLWSGIDETGKDPNKSG--------WISGSAT  157
+
+Query  126  QNCGRKVYI---NAPYRNTTYAPVLDGCKFGNNLAEEDGCSTIWLTKILFRDL  175
+             NCGR+V +   + P +  T A V+DGC      A + GC  ++LTK L   L
+Sbjct  158  TNCGREVEVWRASTPDKKIT-AKVVDGCGLKAK-AFKVGCENLFLTKKLLTTL  208
+
+
+> evm.model.pcontig_020.303
+Length=220
+
+ Score = 56.2 bits (134),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 62/235 (26%), Positives = 90/235 (38%), Gaps = 60/235 (26%)
+
+Query  5    KYLIAALTLAFLSIDAINA---VESMHSQCHRWAQGGKSVSSSRPLVAKMIPA-------  54
+            K  +A + LA L + A+ A     S HS C+ +  G      +  + A   PA       
+Sbjct  2    KATVAVIFLAVLILPAVMANPEPPSQHSTCYNYFLGKDKCVFAAKVDADRCPAPTNSHQK  61
+
+Query  55   ------------EKEKR-----LYRRLTPTQPGKEVVG-----GKPSACSKDGYDTEKNH  92
+                        E  KR     L RR   T   ++ V       +P   + DG       
+Sbjct  62   RSGSTPLFTPKTENMKRSNDHLLERRYDTTTKARKTVTMLYTCPEPQKPNPDGL------  115
+
+Query  93   GVCLWNGVSQLQDPTKPGLPVDTYPGWLSGGNTQNCGRKVYINAPYRNTTYAPVLDGCKF  152
+            GVCLW G                  GW++    QNCG+++YI        Y  ++ GC F
+Sbjct  116  GVCLWAGAGSKST------------GWVNKEIHQNCGKQIYIQRKGVPAIYPNIIGGCDF  163
+
+Query  153  GNNLAEEDGCSTIWLTKILFRDLGGDEDK---GSMYIN-NWDFD------QENGS  197
+            G+ +  + GC  I L + LF  L   E++   GS+     WDF+      +ENGS
+Sbjct  164  GDKVENDVGCFNIALNEKLFEALKPTEEECKAGSLSQGVTWDFNNLKGDKKENGS  218
+
+
+> evm.model.pcontig_022.143
+Length=211
+
+ Score = 53.9 bits (128),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 48/153 (31%), Positives = 65/153 (42%), Gaps = 26/153 (17%)
+
+Query  54   AEKEKR----LYRRLTPTQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQLQDPTKP  109
+            A+K KR    L RR   T P   + GG  +      Y++    GVCLWNG  Q       
+Sbjct  66   AQKVKRSVNKLERRYDTTAPSFAIGGGNGTC---GFYNSVNQLGVCLWNGAEQNN-----  117
+
+Query  110  GLPVDTYPGWLSGGNTQNCGRKVYINAPYRNTT--YAPVLDGCKFGNNLAEEDGCSTIWL  167
+              P     GWL+G  T NCG+++YI    +  T  +  VLD        + + GC  I L
+Sbjct  118  --PTIKTAGWLNGAKTSNCGKRIYIQRKGQPNTVQFVKVLDA------TSPDPGCFDIGL  169
+
+Query  168  TKILFRDLG-GDEDKGSMYIN---NWDFDQENG  196
+            T  LF       E++    I     WDF+  +G
+Sbjct  170  TIKLFNAFNPTPEEQRDGVIKGGITWDFNNLHG  202
+
+
+> evm.model.pcontig_022.129
+Length=216
+
+ Score = 43.5 bits (101),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 37/153 (24%), Positives = 64/153 (42%), Gaps = 19/153 (12%)
+
+Query  51   MIPAEKEKRLYRRLTPTQPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQLQDPTKPG  110
+            M    +++ L RR   T P                 D+  ++  CLW+G    +      
+Sbjct  67   MQTTTEKRSLVRRYDTTIPASTDAHVAFRCPIPKNPDSSWDNTACLWSGSGSGK------  120
+
+Query  111  LPVDTYPGWLSGGNTQNCGRKVYINAPYRNTT--YAPVLDGCKFG-NNLAEEDGCSTIWL  167
+                   GW+  G  +NCG+K++I    +  T  YA +  GC+F  NN+ E  GC  + +
+Sbjct  121  ------VGWVDQGFAKNCGKKIWIQKQGQKGTVQYARISGGCEFRPNNIDESVGCFNLAV  174
+
+Query  168  TKILFRDLGGDEDKGSMY----INNWDFDQENG  196
+             + +F       ++ + +    I +WDF+  NG
+Sbjct  175  NQKVFDGFNPTTEEKNNHRLKGILSWDFNNPNG  207
+
+
+> evm.model.pcontig_031.180
+Length=406
+
+ Score = 25.8 bits (55),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 12/39 (31%), Positives = 20/39 (51%), Gaps = 3/39 (8%)
+
+Query  78   PSACSKDGYDTEKNHGVCLWNGVSQLQD--PTK-PGLPV  113
+            P+      +  EK+HG  + + + QL D  PT+ P  P+
+Sbjct  168  PTLAKPSAFQHEKSHGTIMHSVIHQLIDKMPTRHPAYPM  206
+
+
+> evm.model.pcontig_019.64
+Length=984
+
+ Score = 24.6 bits (52),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  1    MFSTKYLIAALTLAFL  16
+            MF++ YLI AL + FL
+Sbjct  579  MFASNYLIRALQIVFL  594
+
+
+> evm.model.pcontig_005.402
+Length=591
+
+ Score = 24.3 bits (51),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 16/56 (29%), Positives = 26/56 (46%), Gaps = 7/56 (13%)
+
+Query  6    YLIAALTLAFLSIDAINAVESMHSQCHRWAQGGKSVSSSRPLVAKMIPAEKEKRLY  61
+            YLI+  +   +SID++   ES    C      G  +S S  +  K +  E E+ +Y
+Sbjct  482  YLISTSSRVLISIDSVEHYESF--MC-----SGGEISKSEAVQIKSMYEELEREVY  530
+
+
+> evm.model.pcontig_049.37
+Length=699
+
+ Score = 23.9 bits (50),  Expect = 5.5, Method: Composition-based stats.
+ Identities = 12/40 (30%), Positives = 18/40 (45%), Gaps = 0/40 (0%)
+
+Query  38   GKSVSSSRPLVAKMIPAEKEKRLYRRLTPTQPGKEVVGGK  77
+             + +S+ RPL  K    E   R  R + P   G+E   G+
+Sbjct  296  ARPLSTKRPLAYKYNHDESSTRSTREILPNLGGRETHHGE  335
+
+
+> evm.model.pcontig_027.211
+Length=115
+
+ Score = 23.1 bits (48),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 23/103 (22%), Positives = 38/103 (37%), Gaps = 17/103 (17%)
+
+Query  8    IAALTLAFLSIDAINAVESMHSQCHRWAQGGKSVSSSRPLVAKMIPAEKEKRLYRRLTPT  67
+            + +L++A L +    A   +   C ++        S++P+     PA             
+Sbjct  7    VNSLSVALLHLAFACAASQLFFDCVKYPYCAYEDFSTKPMKYSFGPAS------------  54
+
+Query  68   QPGKEVVGGKPSACSKDGYDTEKNHGVCLWNGVSQLQDPTKPG  110
+                +VV G  S CS     ++    VC  N V  L+ P  PG
+Sbjct  55   ----QVVRGGLSTCSVSTLPSKSIINVCCDNPVGLLK-PRPPG  92
+
+
+> evm.model.pcontig_006.462
+Length=1085
+
+ Score = 23.5 bits (49),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 21/49 (43%), Gaps = 4/49 (8%)
+
+Query  88   TEKNHGVCLWNGVSQLQDPTKPGLPVDTYPGWL----SGGNTQNCGRKV  132
+            T K     +WN +    DP+KP   V  +  WL    S   T N  RK+
+Sbjct  589  TSKAMAGEVWNPILAQSDPSKPSSSVLIWGPWLVRNASISITDNTQRKI  637
+
+
+> evm.model.pcontig_020.221
+Length=694
+
+ Score = 23.1 bits (48),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 9/35 (26%), Positives = 17/35 (49%), Gaps = 0/35 (0%)
+
+Query  5    KYLIAALTLAFLSIDAINAVESMHSQCHRWAQGGK  39
+            KYL+  L +  L +  I ++   H++     + GK
+Sbjct  562  KYLVTLLVICRLHVKLIKSIHYFHTKIIEHLKTGK  596
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.134    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 72775684
+
+
+  Database: Pst_104E_v12_p_ctg.anno.protein.fa
+    Posted date:  Aug 17, 2018  10:21 AM
+  Number of letters in database: 781,202
+  Number of sequences in database:  2,430
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

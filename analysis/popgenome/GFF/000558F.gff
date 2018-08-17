@@ -1,0 +1,23 @@
+##gff-version 3
+000558F	EVM	CDS	8855	8857	.	-	0	ID=cds.evm.model.000558F.1;Parent=PCA_SD_26688-T1
+000558F	EVM	exon	8855	8857	.	-	.	ID=evm.model.000558F.1.exon3;Parent=PCA_SD_26688-T1
+000558F	EVM	gene	8855	9296	.	-	.	ID=PCA_SD_26688
+000558F	EVM	mRNA	8855	9296	.	-	.	ID=PCA_SD_26688-T1;Parent=PCA_SD_26688;note=EggNog:ENOG410PVJH;db_xref=InterPro:IPR001650,InterPro:IPR030065,InterPro:IPR027417;go_process=protein polyubiquitination|0000209||IEA,regulation of transcription from RNA polymerase II promoter|0006357||IEA,postreplication repair|0006301||IEA;go_function=ATPase activity|0016887||IEA,ubiquitin protein ligase activity|0061630||IEA
+000558F	EVM	start_codon	8855	8857	.	+	.	ID=PCA_SD_26688-T1:start;Parent=PCA_SD_26688-T1
+000558F	EVM	CDS	8946	9017	.	-	0	ID=cds.evm.model.000558F.1;Parent=PCA_SD_26688-T1
+000558F	EVM	exon	8946	9017	.	-	.	ID=evm.model.000558F.1.exon2;Parent=PCA_SD_26688-T1
+000558F	EVM	CDS	9093	9296	.	-	0	ID=cds.evm.model.000558F.1;Parent=PCA_SD_26688-T1
+000558F	EVM	exon	9093	9296	.	-	.	ID=evm.model.000558F.1.exon1;Parent=PCA_SD_26688-T1
+000558F	EVM	stop_codon	9093	9095	.	+	.	ID=PCA_SD_26688-T1:stop;Parent=PCA_SD_26688-T1
+000558F	EVM	CDS	23343	23741	.	-	0	ID=cds.evm.model.000558F.3;Parent=PCA_SD_26689-T1
+000558F	EVM	exon	23343	23741	.	-	.	ID=evm.model.000558F.3.exon1;Parent=PCA_SD_26689-T1
+000558F	EVM	gene	23343	23741	.	-	.	ID=PCA_SD_26689
+000558F	EVM	mRNA	23343	23741	.	-	.	ID=PCA_SD_26689-T1;Parent=PCA_SD_26689
+000558F	EVM	stop_codon	23343	23345	.	+	.	ID=PCA_SD_26689-T1:stop;Parent=PCA_SD_26689-T1
+000558F	EVM	start_codon	23739	23741	.	+	.	ID=PCA_SD_26689-T1:start;Parent=PCA_SD_26689-T1
+000558F	EVM	CDS	25337	25966	.	+	0	ID=cds.evm.model.000558F.4;Parent=PCA_SD_26690-T1
+000558F	EVM	exon	25337	25966	.	+	.	ID=evm.model.000558F.4.exon1;Parent=PCA_SD_26690-T1
+000558F	EVM	gene	25337	25966	.	+	.	ID=PCA_SD_26690
+000558F	EVM	mRNA	25337	25966	.	+	.	ID=PCA_SD_26690-T1;Parent=PCA_SD_26690;note=EggNog:ENOG410Q0FU
+000558F	EVM	start_codon	25337	25339	.	+	.	ID=PCA_SD_26690-T1:start;Parent=PCA_SD_26690-T1
+000558F	EVM	stop_codon	25964	25966	.	+	.	ID=PCA_SD_26690-T1:stop;Parent=PCA_SD_26690-T1

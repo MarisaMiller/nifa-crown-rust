@@ -1,0 +1,27 @@
+
+
+Building a new DB, current time: 08/17/2018 10:21:30
+New DB name:   /panfs/roc/groups/7/kianians/millerme/nifa-crown-rust/analysis/effector_analysis/blast/pst_primary_prot
+New DB title:  Pst_104E_v12_p_ctg.anno.protein.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 2430 sequences in 0.112401 seconds.
+
+
+Building a new DB, current time: 08/17/2018 10:21:30
+New DB name:   /panfs/roc/groups/7/kianians/millerme/nifa-crown-rust/analysis/effector_analysis/blast/pst_alternate_prot
+New DB title:  Pst_104E_v12_h_ctg.anno.protein.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 2207 sequences in 0.104801 seconds.
+
+
+Building a new DB, current time: 08/17/2018 10:21:30
+New DB name:   /panfs/roc/groups/7/kianians/millerme/nifa-crown-rust/analysis/effector_analysis/blast/pgt_prot
+New DB title:  PGTAus_pan_clustered_secretome.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1351 sequences in 0.0694189 seconds.

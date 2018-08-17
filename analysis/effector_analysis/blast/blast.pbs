@@ -1,0 +1,18 @@
+#!/bin/bash -l
+
+#PBS -l nodes=1:ppn=12,walltime=1:00:00
+#PBS -m abe
+#PBS -M millerme@umn.edu
+#PBS -N blast
+
+module load ncbi_blast+
+
+cd $PBS_O_WORKDIR
+
+makeblastdb -in Pst_104E_v12_p_ctg.anno.protein.fa -dbtype prot -out pst_primary_prot
+makeblastdb -in Pst_104E_v12_h_ctg.anno.protein.fa -dbtype prot -out pst_alternate_prot
+makeblastdb -in PGTAus_pan_clustered_secretome.fa -dbtype prot -out pgt_prot
+
+blastp -query pca_queries.txt -db pst_primary_prot -out pst_primary_prot.blastp.out -num_threads 12
+blastp -query pca_queries.txt -db pst_alternate_prot -out pst_alternate_prot.blastp.out -num_threads 12
+blastp -query pca_queries.txt -db pgt_prot -out pgt_prot.blastp.out -num_threads 12

@@ -1,0 +1,25 @@
+#!/bin/bash -l
+#PBS -l walltime=48:00:00,nodes=1:ppn=24,mem=62gb
+#PBS -m abe
+#PBS -M millerme@umn.edu
+#PBS -N effector_coverage
+
+set -e
+set -u
+set -o pipefail
+
+cd $PBS_O_WORKDIR
+
+module load bedtools/2.27.1
+
+GENOME="/home/kianians/millerme/nifa-crown-rust/reference_genomes/"
+INPUT=(/home/kianians/millerme/nifa-crown-rust/analysis/mapped_reads/*.bam)
+TMP="/scratch.global/millerme"
+
+for ((i=0;i<${#INPUT[@]};i++))
+do
+bedtools bamtobed -i "${INPUT[i]}" | sort -k1,1 -k2,2n -S 75% > $TMP/$(basename "${INPUT[i]%.rm.sorted.bam}.bed")
+bedtools coverage -hist -sorted -g $GENOME/Puccinia_coronata_avenae_12SD80.primary.chromlen -a effector_genes_sd80_p.sorted.gff3 -b $TMP/$(basename "${INPUT[i]%.rm.sorted.bam}.bed") > $(basename "${INPUT[i]%.rm.sorted.bam}.effector.cov")
+bedtools coverage -hist -sorted -g $GENOME/Puccinia_coronata_avenae_12SD80.primary.chromlen -a haus_expr_secreted_effectors_sd80_p.sorted.gff3 -b $TMP/$(basename "${INPUT[i]%.rm.sorted.bam}.bed") > $(basename "${INPUT[i]%.rm.sorted.bam}.haus_effector.cov")
+rm $TMP/$(basename "${INPUT[i]%.rm.sorted.bam}.bed")
+done

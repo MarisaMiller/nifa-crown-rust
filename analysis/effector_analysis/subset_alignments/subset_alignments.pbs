@@ -1,0 +1,41 @@
+#!/bin/bash -l
+#PBS -l walltime=4:00:00,nodes=1:ppn=12
+#PBS -m abe
+#PBS -M millerme@umn.edu
+#PBS -N subset_alignments
+
+set -e
+set -u
+set -o pipefail
+
+cd $PBS_O_WORKDIR
+
+module load samtools
+
+INPUT=(/home/kianians/millerme/nifa-crown-rust/analysis/mapped_reads/*.bam)
+
+#The filtering option I ended up using was only filtering for mapped reads
+for ((i=0;i<${#INPUT[@]};i++))
+do
+samtools view -bh "${INPUT[i]}" 000335F | samtools view -F 0x04 -b - > $(basename "${INPUT[i]%.rm.sorted.bam}.000335F.bam")
+samtools index $(basename "${INPUT[i]%.rm.sorted.bam}.000335F.bam")
+done
+
+#An option for the most strict filtering
+for ((i=0;i<${#INPUT[@]};i++))
+do
+#Filtering for unique reads is based on these two websites:
+#https://wabi-wiki.scilifelab.se/display/KB/Filter+uniquely+mapped+reads+from+a+BAM+file#FilteruniquelymappedreadsfromaBAMfile-bwamem
+#https://bioinformatics.stackexchange.com/questions/508/obtaining-uniquely-mapped-reads-from-bwa-mem-alignment
+samtools view -bh "${INPUT[i]}" 000335F | samtools view -h -q 1 -F 4 -F 256 - | grep -v XA:Z | grep -v SA:Z | samtools view -b - > ./unique/$(basename "${INPUT[i]%.rm.sorted.bam}.unique.000335F.bam")
+samtools index ./unique/$(basename "${INPUT[i]%.rm.sorted.bam}.unique.000335F.bam")
+done
+
+#Less strict filtering
+for ((i=0;i<${#INPUT[@]};i++))
+do
+#Filtering for unique reads a bit less stringently based on this site:
+#https://www.biostars.org/p/56246/
+samtools view -bh "${INPUT[i]}" 000335F | samtools view -bq 1 - > ./filtered/$(basename "${INPUT[i]%.rm.sorted.bam}.filtered.000335F.bam")
+samtools index ./filtered/$(basename "${INPUT[i]%.rm.sorted.bam}.filtered.000335F.bam")
+done
