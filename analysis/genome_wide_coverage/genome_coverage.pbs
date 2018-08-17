@@ -1,0 +1,27 @@
+#!/bin/bash -l
+#PBS -l walltime=48:00:00,nodes=1:ppn=24,mem=62gb
+#PBS -m abe
+#PBS -M millerme@umn.edu
+#PBS -N coverage
+
+set -e
+set -u
+set -o pipefail
+
+cd $PBS_O_WORKDIR
+
+module load bedtools/2.27.1
+
+#Make windows of the 12SD80 genome and the calculate coverage (depth and breadth) of each window
+GENOME="/home/kianians/millerme/nifa-crown-rust/reference_genomes/"
+INPUT=(/home/kianians/millerme/nifa-crown-rust/analysis/mapped_reads/*.bam)
+
+bedtools makewindows -g $GENOME/Puccinia_coronata_avenae_12SD80.primary.chromlen -w 50000 -i srcwinnum > genome_windows_12SD80_p.txt
+
+for ((i=0;i<=${#INPUT[@]};i++))
+do
+bedtools bamtobed -i "${INPUT[i]}" | sort -k1,1 -k2,2n -S 75% | bedtools coverage -hist -sorted -g $GENOME/Puccinia_coronata_avenae_12SD80.primary.chromlen -a genome_windows_12SD80_p.txt -b - > $(basename "${INPUT[i]%.rm.sorted.bam}.window.cov")
+done
+
+#Then, use the histogram output in R to calculate the numbers of bases with a depth of 10 or less, and this will determine how much of the genome is not present in certain isolates.
+#This will be done by summing up the number of bases (3rd to last column) where the 4th to last column is less than 10. 
