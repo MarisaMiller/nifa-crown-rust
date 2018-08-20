@@ -2,9 +2,7 @@
 
 The rename.py script in the scripts directory was used to rename the files.
 
-12SD80 and 12NC29 Illumina sequencing data were also included in some of the analysis, and this data can be obtained from NCBI: https://www.ncbi.nlm.nih.gov/bioproject/398546.
-
-In this directory would be the raw sequencing data (not uploaded here due to size limitations). A link to the sequencing data will be included here once deposted in NCBI.
+In this directory would be the raw sequencing data (not uploaded here due to size limitations). All raw sequencing data can be obtained from NCBI: https://www.ncbi.nlm.nih.gov/bioproject/398546.
 
 Also included are a list of samples names and the job submission script for QC and mapping of this data.
 
