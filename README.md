@@ -5,7 +5,7 @@ Some files were not uploaded here due to size limitations. Notes have been added
 
 Note, see README files and/or job scripts in all directories as well for detailed commands, parameters, and versions.
 
-In this project, I re-sequenced 60 isolates of *Puccinia coronata* f. sp. *avenae* (*Pca*), using paired-end sequencing (100bp PE). This sequencing was done by the UMGC sequencing core (100 ng of DNA used for TruSeq Nano DNA procedure and a 350 bp insert size). 2 batches of 30 libraries were multiplexed and sequenced in 3.5 lanes (HiSeq 2500, High Output Mode, 125 bp paired-end reads) at the University of Minnesota Genomics Center (UMGC) (MN, USA).
+In this project, I re-sequenced 60 isolates of *Puccinia coronata* f. sp. *avenae* (*Pca*), using paired-end sequencing (125 bp PE). This sequencing was done by the UMGC sequencing core (100 ng of DNA used for TruSeq Nano DNA procedure and a 350 bp insert size). 2 batches of 30 libraries were multiplexed and sequenced in 3.5 lanes (HiSeq 2500, High Output Mode, 125 bp paired-end reads) at the University of Minnesota Genomics Center (UMGC) (MN, USA).
 
 Data was deposited by UMGC into the relevant directories for our group, and subsequently I copied all raw FASTQ sequences to the raw_data directory. 12SD80 and 12NC29 sequencing data generated in the *Pca* genome sequencing project were also placed in the raw_data directory. Then, the rename.py script in the scripts directory was used to rename the files.
 
