@@ -1,0 +1,7 @@
+#!/bin/bash -l
+#PBS -l walltime=69:59:00,nodes=1:ppn=24,mem=60gb
+#PBS -m abe 
+#PBS -M hnguyenp@umn.edu
+cd $PBS_O_WORKDIR
+module load raxml/8.2.11_pthread
+raxml -s DNAbin.phy -n data2.no.outgroup -f a -m GTRCAT -p 12345 -x 12345 -# 500 --no-bfgs -T 24
