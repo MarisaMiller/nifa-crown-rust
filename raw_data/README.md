@@ -6,6 +6,8 @@ In this directory would be the raw sequencing data (not uploaded here due to siz
 
 Also included are a list of samples names and the job submission script for QC and mapping of this data.
 
+Subsequently, all of the renamed raw data was uploaded to s3 (see the s3.sh script) and removed from MSI primary storage, and can be accessed at the following link: https://s3.msi.umn.edu/nifa_crown_rust/raw_data.tar.gz
+
 | Sample Code | Isolate ID |
 |:-----------:|:----------:|
 | 1	| 15ND19-2 |

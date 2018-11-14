@@ -1,2 +1,3 @@
 raw_data/*.fastq
 raw_data/*.fastq.gz
+raw_data/*.tar.gz
