@@ -21,7 +21,7 @@ Data was deposited by UMGC into the relevant directories for our group, and subs
 8. Assess isolate contamination with vcfR. See the check_contamination_script.R script in analysis/dapc_poppr/poppr_analysis/.
 9. Annotate variants using Annovar with the annotate_variants.sh script in analysis/snp_calling/variant_annotation/
 10. Perform DAPC analysis and generate phylogenetic tree with the dapc_script.R script in analysis/dapc_poppr/adegenet_dapc_analysis/
-11. Perform LD analysis with two different measures: one method using PoppR in analysis/dapc_poppr/dapc_poppr/poppr_analysis/poppr_LD_script.R and the other method using vcftools in analysis/r_squared/. First run the shell script calc_R2.sh and then plot the results with r2_analysis.R.
+11. Perform LD analysis: method using PoppR in analysis/dapc_poppr/dapc_poppr/poppr_analysis/poppr_LD_script.R.
 12. Use PopGenome to perform population genomic analyses. See the README and the popGenome_analysis.R in analysis/popgenome/ for details of all analyses.
 13. Lastly, thoroughly characterize effectors with the scripts in analysis/effector_analysis/. See the main script general_effector_analysis.R, but also see the scripts in the subdirectories to generate files needed for main analysis. This include the blast.pbs scipt in effector_analysis/blast/, the effector_coverage.pbs and effector_coverage.R scripts in effector_analysis/pav_analysis/, the subset_alignments.pbs in effector_analysis/subset_alignments/, and the effector_variants.sh script in effector_analysis/variation_analysis/. First run all supporting scripts in these directories and the run the summary script in analysis/effector_analysis/.
 
