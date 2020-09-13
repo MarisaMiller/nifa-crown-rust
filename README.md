@@ -1,5 +1,5 @@
 # NIFA Oat Crown Rust Project
-This repository contains all scripts and files to re-create the analysis for the NIFA Oat Crown Rust project. Please forgive any clumsy git use or scripting, this is my first attempt at organizing a bioinformatics project this way.
+This repository contains all scripts and files to re-create the analysis for the NIFA Oat Crown Rust project.
 
 Some files were not uploaded here due to size limitations. Notes have been added to directories to indicate this when possible. Links to large files have been provided whenever possible (such as annotation files), and links to raw data at NCBI have been included so analysis can be replicated from the beginning.
 
